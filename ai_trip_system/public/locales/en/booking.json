@@ -1,0 +1,101 @@
+{
+  "title": "Book Tour",
+  "subtitle": "Complete your booking information",
+
+  "steps": {
+    "info": "Information",
+    "review": "Review",
+    "payment": "Payment",
+    "confirm": "Confirm"
+  },
+
+  "tourInfo": {
+    "title": "Tour Information",
+    "name": "Tour Name",
+    "date": "Departure Date",
+    "duration": "Duration",
+    "price": "Price",
+    "pricePerPerson": "Price / person"
+  },
+
+  "guests": {
+    "title": "Guest Information",
+    "adults": "Adults",
+    "children": "Children",
+    "infants": "Infants",
+    "total": "Total Guests",
+    "add": "Add Guest",
+    "remove": "Remove Guest",
+    "fullName": "Full Name",
+    "age": "Age",
+    "gender": "Gender"
+  },
+
+  "contact": {
+    "title": "Contact Information",
+    "fullName": "Full Name",
+    "email": "Email",
+    "phone": "Phone Number",
+    "address": "Address",
+    "note": "Note (optional)",
+    "notePlaceholder": "Special requests, dietary needs, etc."
+  },
+
+  "pricing": {
+    "title": "Price Details",
+    "subtotal": "Subtotal",
+    "discount": "Discount",
+    "discountAmount": "Discount Amount",
+    "tax": "VAT Tax",
+    "total": "Total",
+    "deposit": "Deposit",
+    "remaining": "Remaining"
+  },
+
+  "coupon": {
+    "title": "Discount Code",
+    "placeholder": "Enter discount code",
+    "apply": "Apply",
+    "remove": "Remove",
+    "applied": "Applied",
+    "invalid": "Invalid code",
+    "expired": "Code expired",
+    "success": "Code applied successfully!"
+  },
+
+  "paymentMethod": {
+    "title": "Payment Method",
+    "select": "Select payment method",
+    "vnpay": "VNPay",
+    "momo": "MoMo",
+    "credit": "Credit/Debit Card",
+    "bank": "Bank Transfer",
+    "cash": "Cash"
+  },
+
+  "buttons": {
+    "next": "Continue",
+    "back": "Back",
+    "confirm": "Confirm Booking",
+    "cancel": "Cancel",
+    "edit": "Edit",
+    "bookNow": "Book Now"
+  },
+
+  "errors": {
+    "incompleteContact": "Please fill in complete contact information",
+    "incompleteGuests": "Guest information is incomplete",
+    "noPaymentMethod": "Please select a payment method",
+    "userNotFound": "User information not found. Please log in again.",
+    "bookingFailed": "An error occurred while creating the booking. Please try again.",
+    "vnpayError": "Error creating VNPay payment link!",
+    "momoError": "Error creating MoMo payment link!",
+    "invalidCoupon": "Invalid discount code"
+  },
+
+  "messages": {
+    "processing": "Processing booking...",
+    "success": "Booking successful!",
+    "redirect": "Redirecting to payment page..."
+  }
+}

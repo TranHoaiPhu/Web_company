@@ -1,0 +1,43 @@
+{
+  "email": {
+    "required": "Email is required",
+    "invalid": "Invalid email",
+    "exists": "Email already in use",
+    "format": "Please enter a valid email address"
+  },
+
+  "password": {
+    "required": "Password is required",
+    "tooShort": "Password must be at least {min} characters",
+    "tooWeak": "Password is too weak",
+    "mismatch": "Passwords do not match",
+    "invalid": "Invalid password"
+  },
+
+  "phone": {
+    "required": "Phone number is required",
+    "invalid": "Invalid phone number",
+    "format": "Please enter a valid phone number (10-11 digits)"
+  },
+
+  "name": {
+    "required": "Full name is required",
+    "tooShort": "Name is too short",
+    "invalid": "Name contains invalid characters"
+  },
+
+  "date": {
+    "required": "Date is required",
+    "invalid": "Invalid date",
+    "past": "Date cannot be in the past",
+    "future": "Date cannot be in the future"
+  },
+
+  "field": {
+    "required": "This field is required",
+    "tooShort": "Value too short (minimum {min} characters)",
+    "tooLong": "Value too long (maximum {max} characters)",
+    "invalid": "Invalid value",
+    "pattern": "Incorrect format"
+  }
+}

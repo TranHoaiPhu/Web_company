@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Xác nhận đơn hàng - TravelVN</title>
+</head>
+<body style="margin: 0; padding: 0; font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; background-color: #f4f7f9; color: #333333;">
+  <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px; margin: 20px auto; background-color: #ffffff; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.05);">
+    
+    <!-- BRAND HEADER -->
+    <tr>
+      <td style="background-color: #ffffff; padding: 40px 40px 20px 40px; text-align: center; border-bottom: 2px solid #f0f4f8;">
+        <img src="{{website_logo}}" alt="TravelVN" style="display: block; height: 60px; width: auto; margin: 0 auto; margin-bottom: 10px;">
+        <div style="width: 40px; height: 3px; background-color: #ff9800; margin: 15px auto;"></div>
+        <h2 style="color: #202124; font-size: 20px; margin: 10px 0 5px 0; font-weight: 700;">Đặt Tour Thành Công!</h2>
+        <p style="color: #5f6368; font-size: 14px; margin: 0;">Cảm ơn bạn đã tin tưởng TravelVN</p>
+      </td>
+    </tr>
+
+    <!-- GREETING -->
+    <tr>
+      <td style="padding: 35px 50px 20px 50px;">
+        <p style="color: #202124; font-size: 16px; line-height: 24px; margin: 0;">
+          Xin chào <strong>{{contact_name}}</strong>,
+        </p>
+        <p style="color: #5f6368; font-size: 15px; line-height: 24px; margin: 12px 0 0 0;">
+          Chúng tôi vui mừng thông báo đơn đặt tour của bạn đã được ghi nhận thành công. Dưới đây là chi tiết đơn hàng của bạn:
+        </p>
+      </td>
+    </tr>
+
+    <!-- ORDER CODE BOX -->
+    <tr>
+      <td style="padding: 0 50px 30px 50px;">
+        <div style="background-color: #f8f9fa; border-radius: 8px; border: 1px solid #e8eaed; padding: 20px; text-align: center;">
+          <p style="color: #70757a; font-size: 11px; margin: 0 0 6px 0; text-transform: uppercase; letter-spacing: 1.5px; font-weight: 700;">Mã đơn hàng</p>
+          <p style="color: #1a73e8; font-size: 22px; font-weight: 800; margin: 0; font-family: 'Courier New', Courier, monospace;">{{order_code}}</p>
+        </div>
+      </td>
+    </tr>
+
+    <!-- TOUR INFO -->
+    <tr>
+      <td style="padding: 0 50px 30px 50px;">
+        <h3 style="color: #202124; font-size: 13px; margin: 0 0 15px 0; text-transform: uppercase; letter-spacing: 1px; font-weight: 700; border-bottom: 1px solid #f1f3f4; padding-bottom: 8px;">Thông Tin Tour</h3>
+        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+          <tr>
+            <td style="padding-bottom: 15px;">
+              <span style="color: #70757a; font-size: 12px; display: block; margin-bottom: 4px;">Tên tour:</span>
+              <p style="color: #202124; font-size: 15px; font-weight: 600; margin: 0;">{{tour_name}}</p>
+            </td>
+          </tr>
+          <tr>
+            <td style="padding-bottom: 15px;">
+              <span style="color: #70757a; font-size: 12px; display: block; margin-bottom: 4px;">Địa điểm:</span>
+              <p style="color: #202124; font-size: 15px; margin: 0;">{{location_name}}</p>
+            </td>
+          </tr>
+          <tr>
+            <td style="padding-bottom: 15px;">
+              <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                <tr>
+                  <td width="50%" style="vertical-align: top;">
+                    <span style="color: #70757a; font-size: 12px; display: block; margin-bottom: 4px;">Ngày khởi hành:</span>
+                    <p style="color: #202124; font-size: 14px; font-weight: 600; margin: 0;">{{start_date}}</p>
+                  </td>
+                  <td width="50%" style="vertical-align: top;">
+                    <span style="color: #70757a; font-size: 12px; display: block; margin-bottom: 4px;">Ngày kết thúc:</span>
+                    <p style="color: #202124; font-size: 14px; font-weight: 600; margin: 0;">{{end_date}}</p>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <td style="padding-bottom: 0;">
+              <span style="color: #70757a; font-size: 12px; display: block; margin-bottom: 4px;">Số người tham gia:</span>
+              <p style="color: #202124; font-size: 14px; margin: 0;">
+                {{adult_quantity}} người lớn
+                {{#if child_quantity}}, {{child_quantity}} trẻ em{{/if}}
+                {{#if infant_quantity}}, {{infant_quantity}} em bé{{/if}}
+              </p>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+
+    <!-- CONTACT INFO -->
+    <tr>
+      <td style="padding: 0 50px 30px 50px;">
+        <h3 style="color: #202124; font-size: 13px; margin: 0 0 15px 0; text-transform: uppercase; letter-spacing: 1px; font-weight: 700; border-bottom: 1px solid #f1f3f4; padding-bottom: 8px;">Thông Tin Liên Hệ</h3>
+        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+          <tr>
+            <td style="padding: 4px 0;"><span style="color: #70757a; font-size: 14px;">Họ tên:</span></td>
+            <td style="padding: 4px 0; text-align: right;"><span style="color: #202124; font-size: 14px; font-weight: 600;">{{contact_name}}</span></td>
+          </tr>
+          <tr>
+            <td style="padding: 4px 0;"><span style="color: #70757a; font-size: 14px;">Số điện thoại:</span></td>
+            <td style="padding: 4px 0; text-align: right;"><span style="color: #202124; font-size: 14px;">{{contact_phone}}</span></td>
+          </tr>
+          <tr>
+            <td style="padding: 4px 0;"><span style="color: #70757a; font-size: 14px;">Email:</span></td>
+            <td style="padding: 4px 0; text-align: right;"><span style="color: #202124; font-size: 14px;">{{contact_email}}</span></td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+
+    <!-- PAYMENT DETAILS -->
+    <tr>
+      <td style="padding: 0 50px 35px 50px;">
+        <div style="background-color: #fffaf0; border-radius: 8px; padding: 25px; border: 1px solid #ffeeba;">
+          <h3 style="color: #856404; font-size: 13px; margin: 0 0 15px 0; text-transform: uppercase; letter-spacing: 1px; font-weight: 700; border-bottom: 1px solid #ffe082; padding-bottom: 8px;">Chi Tiết Thanh Toán</h3>
+          <table border="0" cellpadding="0" cellspacing="0" width="100%">
+            <tr>
+              <td style="padding: 8px 0; color: #5f6368; font-size: 14px;">Tạm tính:</td>
+              <td style="padding: 8px 0; color: #202124; font-size: 15px; text-align: right; font-weight: 600;">{{subtotal}}</td>
+            </tr>
+            {{#if discount_amount}}
+            <tr>
+              <td style="padding: 8px 0; color: #d93025; font-size: 14px;">Giảm giá:</td>
+              <td style="padding: 8px 0; color: #d93025; font-size: 15px; text-align: right;">-{{discount_amount}}</td>
+            </tr>
+            {{/if}}
+            <tr>
+              <td style="padding: 15px 0 10px 0; color: #202124; font-size: 16px; font-weight: 700;">TỔNG CỘNG:</td>
+              <td style="padding: 15px 0 10px 0; color: #e67e22; font-size: 20px; font-weight: 800; text-align: right;">{{total_price}}</td>
+            </tr>
+            <tr>
+              <td colspan="2" style="padding-top: 15px; border-top: 1px solid #ffe082;">
+                <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                  <tr>
+                    <td style="color: #5f6368; font-size: 13px;">Phương thức:</td>
+                    <td style="color: #202124; font-size: 13px; text-align: right; font-weight: 600;">{{payment_method}}</td>
+                  </tr>
+                  <tr>
+                    <td style="color: #5f6368; font-size: 13px; padding-top: 5px;">Trạng thái:</td>
+                    <td style="text-align: right; padding-top: 5px;">
+                      <span style="color: {{payment_status_color}}; font-weight: 700; font-size: 13px;">{{payment_status}}</span>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </td>
+    </tr>
+
+    <!-- PARTICIPANTS -->
+    {{#if participants}}
+    <tr>
+      <td style="padding: 0 50px 30px 50px;">
+        <h3 style="color: #202124; font-size: 13px; margin: 0 0 15px 0; text-transform: uppercase; letter-spacing: 1px; font-weight: 700; border-bottom: 1px solid #f1f3f4; padding-bottom: 8px;">Danh Sách Người Tham Gia</h3>
+        <div style="background-color: #ffffff; border: 1px solid #f1f3f4; border-radius: 8px; padding: 15px;">
+          <p style="color: #5f6368; font-size: 14px; line-height: 1.8; margin: 0;">
+            {{participants_list}}
+          </p>
+        </div>
+      </td>
+    </tr>
+    {{/if}}
+
+    <!-- SPECIAL REQUESTS -->
+    {{#if special_requests}}
+    <tr>
+      <td style="padding: 0 50px 30px 50px;">
+        <div style="background-color: #f1f3f4; border-radius: 8px; padding: 20px;">
+          <p style="color: #202124; font-size: 13px; margin: 0 0 8px 0; font-weight: 700;">Yêu cầu đặc biệt:</p>
+          <p style="color: #5f6368; font-size: 14px; margin: 0; font-style: italic;">"{{special_requests}}"</p>
+        </div>
+      </td>
+    </tr>
+    {{/if}}
+
+    <!-- IMPORTANT NOTES -->
+    <tr>
+      <td style="padding: 0 50px 40px 50px;">
+        <div style="background-color: #fff8e1; border-radius: 8px; padding: 25px; border-left: 5px solid #ffc107;">
+          <h4 style="color: #856404; font-size: 14px; margin: 0 0 12px 0; font-weight: 700;">Lưu Ý Quan Trọng:</h4>
+          <ul style="color: #856404; font-size: 13px; line-height: 1.8; margin: 0; padding-left: 20px;">
+            <li style="margin-bottom: 5px;">Vui lòng có mặt tại điểm tập trung trước giờ khởi hành <strong>30 phút</strong>.</li>
+            <li style="margin-bottom: 5px;">Mang theo <strong>CMND/CCCD/Passport</strong> bản gốc để check-in.</li>
+            <li style="margin-bottom: 5px;">Liên hệ hotline nếu cần hỗ trợ hoặc thay đổi lịch trình.</li>
+            <li>Kiểm tra email để nhận thông tin chi tiết về chuyến đi.</li>
+          </ul>
+        </div>
+      </td>
+    </tr>
+
+    <!-- CTA BUTTON -->
+    <tr>
+      <td style="padding: 0 50px 45px 50px; text-align: center;">
+        <a href="{{order_detail_url}}" style="display: inline-block; background-color: #1a73e8; color: #ffffff; text-decoration: none; padding: 16px 45px; border-radius: 4px; font-size: 15px; font-weight: 700; box-shadow: 0 2px 10px rgba(26,115,232,0.3); transition: background-color 0.2s;">
+          Xem Chi Tiết Đơn Hàng
+        </a>
+      </td>
+    </tr>
+
+    <!-- FOOTER -->
+    <tr>
+      <td style="background-color: #202124; padding: 40px 50px; text-align: center;">
+        <p style="color: #9aa0a6; font-size: 14px; margin: 0 0 15px 0;">Cần hỗ trợ? Liên hệ với chúng tôi:</p>
+        <p style="margin: 0 0 25px 0;">
+          <a href="tel:+84123456789" style="color: #ffffff; text-decoration: none; font-size: 14px; margin: 0 20px; font-weight: 600;">0123 456 789</a>
+          <a href="mailto:support@travelvn.com" style="color: #ffffff; text-decoration: none; font-size: 14px; margin: 0 20px; font-weight: 600;">support@travelvn.com</a>
+        </p>
+        <div style="border-top: 1px solid #3c4043; padding-top: 25px;">
+          <p style="color: #70757a; font-size: 12px; margin: 0 0 8px 0;">© 2025 TravelVN. All rights reserved.</p>
+          <p style="margin: 0;">
+            <a href="#" style="color: #70757a; text-decoration: none; font-size: 11px; margin: 0 12px;">Chính sách bảo mật</a>
+            <a href="#" style="color: #70757a; text-decoration: none; font-size: 11px; margin: 0 12px;">Điều khoản sử dụng</a>
+            <a href="#" style="color: #70757a; text-decoration: none; font-size: 11px; margin: 0 12px;">Hủy đăng ký</a>
+          </p>
+        </div>
+      </td>
+    </tr>
+
+  </table>
+</body>
+</html>

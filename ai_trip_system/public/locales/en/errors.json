@@ -1,0 +1,54 @@
+{
+  "http": {
+    "400": "Bad Request",
+    "401": "You need to log in to continue",
+    "403": "You don't have permission",
+    "404": "Page not found",
+    "500": "Server error. Please try again later.",
+    "502": "Server not responding",
+    "503": "Service temporarily unavailable"
+  },
+
+  "network": {
+    "offline": "No network connection",
+    "timeout": "Connection timeout",
+    "connectionFailed": "Cannot connect to server",
+    "slowConnection": "Slow network connection"
+  },
+
+  "permission": {
+    "locationDenied": "Location access denied. Please enable it in browser settings.",
+    "locationFailed": "Unable to get your location.",
+    "locationDeniedByUser": "You denied location sharing. Please enable it in browser settings.",
+    "cameraDenied": "Camera access denied",
+    "storageDenied": "Storage access denied"
+  },
+
+  "api": {
+    "invalidResponse": "Invalid response from server",
+    "serverError": "Server error",
+    "rateLimit": "Too many requests. Please try again later.",
+    "maintenance": "System under maintenance. Please come back later."
+  },
+
+  "chatbot": {
+    "connectionFailed": "Sorry, cannot connect to chatbot. Please try again later.",
+    "processingFailed": "Cannot process message",
+    "timeout": "Chatbot not responding. Please try again."
+  },
+
+  "generic": {
+    "unknown": "An error occurred",
+    "unexpected": "Unexpected error",
+    "tryAgain": "Please try again",
+    "contactSupport": "Please contact support if the issue persists"
+  },
+
+  "review": {
+    "loadFailed": "Cannot load reviews. Please try again later.",
+    "loadError": "An error occurred while loading reviews. Please try again later.",
+    "submitFailed": "Cannot submit review. Please try again later.",
+    "submitError": "An error occurred while updating review. Please try again later.",
+    "contentRequired": "Please enter review content"
+  }
+}

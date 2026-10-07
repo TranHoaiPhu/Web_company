@@ -1,0 +1,1 @@
+ALTER TABLE orders ADD COLUMN IF NOT EXISTS adult_price_at_booking DECIMAL(10, 2) DEFAULT 0;

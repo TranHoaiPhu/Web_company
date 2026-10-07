@@ -1,0 +1,43 @@
+{
+  "email": {
+    "required": "Email là bắt buộc",
+    "invalid": "Email không hợp lệ",
+    "exists": "Email đã được sử dụng",
+    "format": "Vui lòng nhập địa chỉ email hợp lệ"
+  },
+
+  "password": {
+    "required": "Mật khẩu là bắt buộc",
+    "tooShort": "Mật khẩu phải có ít nhất {min} ký tự",
+    "tooWeak": "Mật khẩu quá yếu",
+    "mismatch": "Mật khẩu không khớp",
+    "invalid": "Mật khẩu không hợp lệ"
+  },
+
+  "phone": {
+    "required": "Số điện thoại là bắt buộc",
+    "invalid": "Số điện thoại không hợp lệ",
+    "format": "Vui lòng nhập số điện thoại hợp lệ (10-11 số)"
+  },
+
+  "name": {
+    "required": "Họ và tên là bắt buộc",
+    "tooShort": "Họ và tên quá ngắn",
+    "invalid": "Họ và tên chứa ký tự không hợp lệ"
+  },
+
+  "date": {
+    "required": "Ngày là bắt buộc",
+    "invalid": "Ngày không hợp lệ",
+    "past": "Ngày không thể là quá khứ",
+    "future": "Ngày không thể là tương lai"
+  },
+
+  "field": {
+    "required": "Trường này là bắt buộc",
+    "tooShort": "Giá trị quá ngắn (tối thiểu {min} ký tự)",
+    "tooLong": "Giá trị quá dài (tối đa {max} ký tự)",
+    "invalid": "Giá trị không hợp lệ",
+    "pattern": "Định dạng không đúng"
+  }
+}

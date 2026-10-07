@@ -1,0 +1,149 @@
+{
+  "title": "Profile",
+  "subtitle": "Manage your account information",
+  "sidebar": {
+    "memberProfile": "Member Profile",
+    "myTrips": "My Trips",
+    "myReviews": "My Reviews",
+    "favorites": "Favorite Tours",
+    "security": "Security & Password",
+    "logout": "Logout",
+    "user": "User"
+  },
+  "tabs": {
+    "info": "Information",
+    "security": "Security",
+    "preferences": "Preferences",
+    "notifications": "Notifications"
+  },
+  "info": {
+    "title": "Personal Information",
+    "avatar": "Avatar",
+    "changeAvatar": "Change Avatar",
+    "removeAvatar": "Remove Avatar",
+    "fullName": "Full Name",
+    "displayName": "Display Name",
+    "email": "Email",
+    "phone": "Phone Number",
+    "dateOfBirth": "Date of Birth",
+    "gender": "Gender",
+    "genderOptions": {
+      "male": "Male",
+      "female": "Female",
+      "other": "Other"
+    },
+    "address": "Address",
+    "city": "City",
+    "country": "Country",
+    "bio": "Bio",
+    "saveChanges": "Save Changes",
+    "edit": "Edit",
+    "verified": "Verified",
+    "notUpdated": "Not updated",
+    "joinedDate": "Joined Date"
+  },
+  "security": {
+    "title": "Account Security",
+    "changePassword": "Change Password",
+    "currentPassword": "Current Password",
+    "newPassword": "New Password",
+    "confirmPassword": "Confirm Password",
+    "twoFactor": "Two-Factor Authentication",
+    "twoFactorDesc": "Add an extra layer of security to your account",
+    "enable": "Enable",
+    "disable": "Disable",
+    "sessions": "Login Sessions",
+    "logoutAll": "Logout All Devices",
+    "loginEmail": "Login Email",
+    "password": "Password",
+    "securityPhone": "Security Phone Number",
+    "securityPhoneDesc": "Used for account recovery"
+  },
+  "trips": {
+    "title": "My Trips",
+    "upcoming": "Upcoming",
+    "history": "History",
+    "cancelled": "Cancelled"
+  },
+  "reviews": {
+    "title": "My Reviews"
+  },
+  "favorites": {
+    "title": "Favorite Tours"
+  },
+  "modal": {
+    "updateProfile": "Update Profile",
+    "changePassword": "Change Password",
+    "cancel": "Cancel",
+    "save": "Save Changes",
+    "saving": "Saving...",
+    "processing": "Processing...",
+    "addressPlaceholder": "Enter address or select on map",
+    "oldPasswordPlaceholder": "Enter current password",
+    "newPasswordPlaceholder": "Enter new password (min 6 characters)",
+    "confirmPasswordPlaceholder": "Re-enter new password"
+  },
+  "preferences": {
+    "title": "Preferences",
+    "language": "Language",
+    "theme": "Theme",
+    "themeOptions": {
+      "light": "Light",
+      "dark": "Dark",
+      "system": "System"
+    },
+    "currency": "Currency",
+    "timezone": "Timezone"
+  },
+  "notifications": {
+    "title": "Notification Settings",
+    "email": "Email Notifications",
+    "push": "Push Notifications",
+    "sms": "SMS Notifications",
+    "marketing": "News and Promotions",
+    "orderUpdates": "Order Updates",
+    "tourReminders": "Tour Reminders"
+  },
+  "settings": {
+    "title": "Settings",
+    "account": "Account",
+    "privacy": "Privacy",
+    "deleteAccount": "Delete Account",
+    "deleteWarning": "This action cannot be undone. All your data will be permanently deleted.",
+    "appearance": "Appearance",
+    "themeLabel": "Theme",
+    "theme": {
+      "light": "Light",
+      "dark": "Dark",
+      "auto": "Auto"
+    },
+    "language": "Language",
+    "languageLabel": "Display Language",
+    "save": "Save Settings",
+    "saving": "Saving...",
+    "loading": "Loading...",
+    "error": "Error loading data",
+    "toast": {
+      "saveSuccess": "Settings saved successfully",
+      "saveError": "Error saving settings"
+    }
+  },
+  "stats": {
+    "totalTrips": "Total Trips",
+    "totalSpent": "Total Spent",
+    "memberSince": "Member Since",
+    "loyaltyPoints": "Loyalty Points"
+  },
+  "messages": {
+    "updateSuccess": "Profile updated successfully!",
+    "updateFailed": "An error occurred while saving information.",
+    "passwordChanged": "Password changed successfully! Logging out...",
+    "passwordMismatch": "Password confirmation does not match",
+    "passwordTooShort": "New password must be at least 6 characters",
+    "fillAllFields": "Please fill in all fields",
+    "passwordChangeFailed": "Password change failed",
+    "passwordChangeError": "Error changing password",
+    "avatarUpdated": "Avatar updated successfully",
+    "failedToLoad": "Failed to load data"
+  }
+}

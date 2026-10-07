@@ -1,0 +1,23 @@
+{
+  "name": "AI Travel - Smart Route Recommendation",
+  "short_name": "AI Travel",
+  "description": "Lập kế hoạch du lịch thông minh với AI - trợ lý AI cho hành trình của bạn.",
+  "lang": "vi",
+  "start_url": "/?utm_source=homescreen",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#667eea",
+  "icons": [
+    {
+      "src": "/logo/travelVN.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/logo/travelVN.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    }
+  ]
+}

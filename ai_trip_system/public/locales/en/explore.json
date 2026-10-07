@@ -1,0 +1,77 @@
+{
+  "title": {
+    "explore": "Explore Places",
+    "suggestions": "Travel Route Suggestions"
+  },
+  "subtitle": "Find the perfect destination for you",
+  "navigation": {
+    "back": "Back"
+  },
+  "places": {
+    "title": "Places in {province}",
+    "found": "{count} places found",
+    "empty": "No places found"
+  },
+  "toast": {
+    "foundPlaces": "Found {count} places",
+    "loadComplete": "Places loaded"
+  },
+  "search": {
+    "placeholder": "Search places, tours...",
+    "userPlaceholder": "Search users...",
+    "button": "Search",
+    "noResults": "No results found",
+    "resultsCount": "Found {count} results"
+  },
+  "filters": {
+    "all": "All",
+    "tours": "Tours",
+    "places": "Places",
+    "hotels": "Hotels",
+    "restaurants": "Restaurants"
+  },
+  "sort": {
+    "label": "Sort",
+    "popular": "Most Popular",
+    "rating": "Highest Rated",
+    "priceAsc": "Price: Low to High",
+    "priceDesc": "Price: High to Low",
+    "newest": "Newest"
+  },
+  "placeCard": {
+    "viewDetails": "View Details",
+    "reviews": "{count} reviews",
+    "distance": "{distance} km from you"
+  },
+  "categories": {
+    "beach": "Beach & Island",
+    "mountain": "Mountain",
+    "city": "City",
+    "countryside": "Countryside",
+    "historical": "Historical Sites",
+    "nature": "Nature"
+  },
+  "loading": "Loading...",
+  "error": {
+    "title": "An error occurred",
+    "message": "Failed to load data. Please try again.",
+    "retry": "Retry"
+  },
+  "empty": {
+    "title": "No data available",
+    "message": "Try searching with different keywords"
+  },
+  "guide": {
+    "title": "Map Exploration Guide",
+    "description": "Select any point on the map. The system will use Google Maps to automatically identify the province/city and suggest tourist attractions around that area.",
+    "steps": {
+      "1": "Zoom in/out the map to the area you are interested in.",
+      "2": "Click on the desired location on the map.",
+      "3": "Wait a few seconds for the system to search and display the list of places in the right column.",
+      "4": "Click on each place to view more details."
+    },
+    "note": "Note: Results are combined from system data and Google Places. If no places are found, try selecting a different location near the city/province center.",
+    "hideGuide": "Hide guide",
+    "showGuide": "Show guide"
+  }
+}

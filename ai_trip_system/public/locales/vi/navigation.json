@@ -1,0 +1,38 @@
+{
+  "nav": {
+    "home": "Trang chủ",
+    "explore": "Khám phá",
+    "tours": "Tours",
+    "destinations": "Điểm đến",
+    "deals": "Ưu đãi",
+    "blog": "Bài viết",
+    "contact": "Liên hệ",
+    "assistance": "Chatbot Hỗ trợ",
+    "trips": "Chuyến đi",
+    "login": "Đăng nhập",
+    "register": "Đăng ký",
+    "logout": "Đăng xuất",
+    "account": "Tài khoản",
+    "myTours": "Tour của tôi",
+    "wishlist": "Yêu thích",
+    "myOrders": "Đơn hàng của tôi",
+    "search": "Tìm kiếm tour...",
+    "searchPlaceholder": "Nhập tên tour, địa điểm...",
+    "bookNow": "Đặt tour ngay",
+    "member": "Thành viên",
+    "personalAccount": "Tài khoản cá nhân",
+    "bookedTours": "Tour đã đặt",
+    "menu": "Menu"
+  },
+  "footer": {
+    "group11": "Nhóm 11",
+    "aboutUs": "Về chúng tôi",
+    "intro": "Giới thiệu",
+    "contactInfo": "Thông tin liên hệ",
+    "email": "Email",
+    "hotline": "Hotline",
+    "faq": "Hỏi đáp",
+    "connect": "Kết nối với chúng tôi",
+    "copyright": "Copyright @ 2025 | All Rights Reserved."
+  }
+}

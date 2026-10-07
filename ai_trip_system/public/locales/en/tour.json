@@ -1,0 +1,154 @@
+{
+  "card": {
+    "hotDeal": "HOT DEAL",
+    "discount": "-{percent}%",
+    "maxGuests": "Max {count}",
+    "reviews": "{count} reviews",
+    "spotsLeft": "Only {count} spots left!",
+    "perPerson": "/ person",
+    "bookNow": "Book Now"
+  },
+  "list": {
+    "loading": "Loading tours...",
+    "error": {
+      "title": "An error occurred",
+      "message": "Failed to load tour list. Please try again later.",
+      "retry": "Retry"
+    },
+    "empty": {
+      "title": "No tours found",
+      "message": "Try changing filters or come back later!"
+    },
+    "filters": {
+      "all": "All",
+      "featured": "Featured"
+    },
+    "viewMode": {
+      "grid": "Grid",
+      "list": "List"
+    }
+  },
+  "categories": {
+    "beach": "Beach & Island",
+    "culture": "Cultural Tourism",
+    "adventure": "Adventure Tourism",
+    "resort": "Resort & Relaxation",
+    "mountain": "Mountain Tourism",
+    "other": "Other"
+  },
+  "itinerary": {
+    "title": "Detailed Itinerary",
+    "day": "Day"
+  },
+  "overview": {
+    "title": "Overview"
+  },
+  "description": {
+    "highlightsTitle": "Journey Highlights"
+  },
+  "amenities": {
+    "categories": {
+      "transport": "Transportation",
+      "accommodation": "Accommodation",
+      "food": "Food & Dining",
+      "activity": "Activities",
+      "service": "Services",
+      "other": "Other Amenities"
+    },
+    "included": "Included",
+    "surcharge": "Surcharge"
+  },
+  "detail": {
+    "hero": {
+      "hotDeal": "Hot Deal",
+      "reviews": "{count} reviews",
+      "duration": "Duration",
+      "destination": "Destination",
+      "groupSize": "Large Group",
+      "bookingCount": "Bookings",
+      "bookNow": "Book Tour Now",
+      "contact": "Contact Us",
+      "priceFrom": "From only",
+      "perPerson": "/person"
+    },
+    "overview": {
+      "title": "Overview",
+      "highlights": "Highlights",
+      "included": "Included",
+      "notIncluded": "Not Included",
+      "departure": "Departure",
+      "transport": "Transport",
+      "accommodation": "Accommodation",
+      "meals": "Meals"
+    },
+    "itinerary": {
+      "title": "Itinerary",
+      "day": "Day {number}",
+      "morning": "Morning",
+      "afternoon": "Afternoon",
+      "evening": "Evening",
+      "overnight": "Overnight at"
+    },
+    "amenities": {
+      "title": "Amenities",
+      "wifi": "Free Wifi",
+      "breakfast": "Breakfast",
+      "pool": "Swimming Pool",
+      "spa": "Spa",
+      "gym": "Gym",
+      "parking": "Parking",
+      "airConditioner": "Air Conditioner",
+      "restaurant": "Restaurant"
+    },
+    "booking": {
+      "selectDate": "Select departure date",
+      "selectGuests": "Number of guests",
+      "adults": "Adults",
+      "children": "Children",
+      "infants": "Infants",
+      "totalPrice": "Total Price",
+      "bookNow": "Book Now",
+      "addToWishlist": "Add to Wishlist",
+      "share": "Share"
+    },
+    "reviews": {
+      "title": "Reviews",
+      "writeReview": "Write a Review",
+      "averageRating": "Average Rating",
+      "totalReviews": "{count} reviews",
+      "sortBy": "Sort by",
+      "newest": "Newest",
+      "highest": "Highest",
+      "lowest": "Lowest",
+      "helpful": "Helpful",
+      "reply": "Reply"
+    },
+    "related": {
+      "title": "Related Tours",
+      "viewAll": "View All"
+    }
+  },
+  "search": {
+    "placeholder": "Search tours...",
+    "noResults": "No tours found",
+    "resultsCount": "Found {count} tours"
+  },
+  "sort": {
+    "label": "Sort",
+    "priceAsc": "Price: Low to High",
+    "priceDesc": "Price: High to Low",
+    "rating": "Highest Rated",
+    "popular": "Most Popular",
+    "newest": "Newest"
+  },
+  "filter": {
+    "title": "Filters",
+    "priceRange": "Price Range",
+    "duration": "Duration",
+    "rating": "Rating",
+    "category": "Category",
+    "location": "Location",
+    "apply": "Apply",
+    "reset": "Reset"
+  }
+}

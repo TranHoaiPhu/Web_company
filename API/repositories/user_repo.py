@@ -1,0 +1,194 @@
+from supabase_client import supabase
+from schemas.user_schema import UserCreate, UserUpdate
+import uuid
+import auth
+from utils.db_utils import with_retry
+def get_conversations_by_user(id: str, page: int = 1, limit: int = 20, includeArchived: bool = True, search: str = None):
+    offset = (page - 1) * limit
+
+    q = supabase.table("conversations").select("*", count="exact").eq("user_id", id).range(offset, offset + limit - 1)
+
+    if not includeArchived:
+        q = q.eq("is_archived", False)
+
+    if search:
+        q = q.ilike("title", f"%{search}%")
+        
+    res = q.execute()
+    return res.data, res.count
+
+# Get all users
+def get_users():
+    response = supabase.table("users").select("*").execute()
+    return response.data
+
+# Get an user by specific field    
+@with_retry()
+def get_user_by_id(idUser: str):
+    return supabase.table("users").select("*").eq("iduser", idUser).execute().data
+
+@with_retry()
+def get_user_by_username(username: str):
+    return supabase.table("users").select("*").eq("username", username).execute().data
+
+@with_retry()
+def get_user_by_email(email: str):
+    return supabase.table("users").select("*").eq("email", email).execute().data
+
+def get_user_by_phone(phone: str):
+    return supabase.table("users").select("*").eq("phonenumber", phone).execute().data
+
+# Get trips of user
+def get_trip_ids_of_user(idUser: str):
+    response = supabase.table("tripmembers").select("idtrip").eq("iduser", idUser).execute().data
+    
+    return [trip["idtrip"] for trip in response]
+    
+# Get bookings of user
+def get_booking_ids_of_user(idUser: str):
+    response = supabase.table("detailbookings").select("idbooking").eq("iduser", idUser).execute()
+    
+    return [booking["idbooking"] for booking in response.data]
+    
+# Get friend requests of user
+def get_friend_request_ids_of_user(idUser: str):
+    response = supabase.table("friends").select("*").eq("idself", idUser).eq("isaccept", False).execute().data
+    return [friend["idfriend"] for friend in response]
+
+# Get friend requests to user
+def get_friend_request_ids_to_user(idUser: str):
+    response = supabase.table("friends").select("*").eq("idfriend", idUser).eq("isaccept", False).execute().data
+    return [friend["idself"] for friend in response]
+
+def get_friends_of_user(idUser: str, friendList):
+    # Lấy ID bạn bè (loại bỏ chính user đang tìm) và loại trùng
+    friend_ids = list(set(
+        friend["idself"] if friend["idself"] != idUser else friend["idfriend"]
+        for friend in friendList
+    ))
+
+    return supabase.table("users").select("*").in_("iduser", friend_ids).execute().data
+
+# Get reviewed trips of user
+def get_reviewed_trip_ids_of_user(idUser: str):
+    response = supabase.table("reviews").select("idtrip").eq("iduser", idUser).execute().data
+    return [trip["idtrip"] for trip in response]
+
+def get_ai_recommendations_of_user(idUser: str):
+    response = supabase.table("airecommendations").select("*").eq("iduser", idUser).execute().data
+    return response
+
+# Check if the user already exists
+def is_user_exist(user: UserCreate):
+    response = supabase.table("users").select("*").or_(
+        f"username.eq.{user.username},email.eq.{user.email},phonenumber.eq.{user.phonenumber}"
+    ).execute()
+    return bool(response.data)
+
+def is_valid_user(user: UserCreate):
+    if user.gender not in [0, 1, 2]:
+        return False
+    return True
+
+# Post a new user
+def create_user(user: UserCreate): 
+    # Nếu mật khẩu đã có dạng hash (ví dụ: bắt đầu bằng $2b$ từ Node.js) thì không hash lại
+    if user.password and user.password.startswith("$2b$"):
+        hashed_password = user.password
+    else:
+        hashed_password = auth.hash_password(user.password)
+
+    
+    # Ưu tiên dùng user_id truyền từ tham số (cho việc đồng bộ)
+    # Nếu không có mới sinh ID tự động
+    idUser = user.user_id
+    
+    if not idUser:
+        while not idUser or get_user_by_id(idUser):
+            idUser = f"{str(uuid.uuid4())}"
+    
+    db_user = {
+        "iduser": idUser,
+        "name": user.name,
+        "username": user.username,
+        "password": hashed_password,
+        "password_hash": hashed_password,
+        "gender": user.gender,
+        "email": user.email,
+        "phonenumber": user.phonenumber,
+        "avatar": user.avatar,
+        "theme": 0,
+        "language": 0,
+        "description": user.description,
+        "role": 1
+    }
+    
+    response = supabase.table("users").insert(db_user).execute()
+
+    return response.data[0]
+# Tạo user - ver đồng bộ - thêm user_id vào bảng luôn chứ khôgn tao mới 
+
+def create_user_sync(user: UserCreate):
+    # Nếu mật khẩu đã có dạng hash thì không hash lại
+    if not (user.password and user.password.startswith("$2b$")):
+        user.password = auth.hash_password(user.password)
+
+    db_user = {
+        "iduser": user.user_id,
+        "name": user.name,
+        "username": user.username,
+        "password": user.password,
+        "password_hash": user.password,
+        "gender": user.gender,
+        "email": user.email,
+        "phonenumber": user.phonenumber,
+        "avatar": user.avatar,
+        "theme": 0,
+        "language": 0,
+        "description": user.description,
+        "role": 1
+    }
+    
+    response = supabase.table("users").insert(db_user).execute()
+
+    return response.data[0]
+
+
+def check_after_update_user(user: UserCreate, idUser: str):
+    # Check if the username, email, or phoneNumber is already taken
+    after_users = [
+        get_user_by_username(user.username),
+        get_user_by_email(user.email),
+        get_user_by_phone(user.phonenumber)
+    ]
+    
+    for after_user in after_users:
+        if after_user and after_user[0]["iduser"] != idUser:
+            return False
+        
+    return True
+
+def update_user(idUser: str, user: UserUpdate):
+    # Update user fields
+    update_data = {key: value for key, value in user.model_dump(exclude_unset=True).items()}
+    
+    # Sync password columns if password is being updated
+    if "password" in update_data:
+        update_data["password_hash"] = update_data["password"]
+    
+    response = supabase.table("users").update(update_data).eq("iduser", idUser).execute()
+
+    return response.data[0]
+
+def update_user_avatar(user_id: str, avatar_url: str):
+    result = supabase.table("users").update({
+        "avatar": avatar_url
+    }).eq("iduser", user_id).execute()
+    
+    return result.data[0]
+
+# Delete a user
+def delete_user(idUser: str):
+    supabase.table("users").delete().eq("iduser", idUser).execute()
+    
+    return {"message": "User deleted successfully"}

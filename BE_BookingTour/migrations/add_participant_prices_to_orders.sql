@@ -1,0 +1,3 @@
+ALTER TABLE orders 
+ADD COLUMN IF NOT EXISTS child_price_at_booking DECIMAL(10, 2) DEFAULT 0,
+ADD COLUMN IF NOT EXISTS infant_price_at_booking DECIMAL(10, 2) DEFAULT 0;

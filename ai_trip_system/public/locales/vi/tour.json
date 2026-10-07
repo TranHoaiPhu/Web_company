@@ -1,0 +1,154 @@
+{
+  "card": {
+    "hotDeal": "ƯU ĐÃI HOT",
+    "discount": "-{percent}%",
+    "maxGuests": "Tối đa {count}",
+    "reviews": "{count} đánh giá",
+    "spotsLeft": "Chỉ còn {count} chỗ!",
+    "perPerson": "/ người",
+    "bookNow": "Đặt ngay"
+  },
+  "list": {
+    "loading": "Đang tải tour...",
+    "error": {
+      "title": "Đã xảy ra lỗi",
+      "message": "Không thể tải danh sách tour. Vui lòng thử lại sau.",
+      "retry": "Thử lại"
+    },
+    "empty": {
+      "title": "Không tìm thấy tour",
+      "message": "Thử thay đổi bộ lọc hoặc quay lại sau nhé!"
+    },
+    "filters": {
+      "all": "Tất cả",
+      "featured": "Nổi bật"
+    },
+    "viewMode": {
+      "grid": "Lưới",
+      "list": "Danh sách"
+    }
+  },
+  "categories": {
+    "beach": "Biển & Đảo",
+    "culture": "Du lịch Văn hóa",
+    "adventure": "Du lịch Mạo hiểm",
+    "resort": "Resort & Nghỉ dưỡng",
+    "mountain": "Du lịch Núi",
+    "other": "Khác"
+  },
+  "itinerary": {
+    "title": "Lịch trình chi tiết",
+    "day": "Ngày"
+  },
+  "overview": {
+    "title": "Tổng quan"
+  },
+  "description": {
+    "highlightsTitle": "Điểm nổi bật của hành trình"
+  },
+  "amenities": {
+    "categories": {
+      "transport": "Phương tiện",
+      "accommodation": "Chỗ ở",
+      "food": "Ăn uống",
+      "activity": "Hoạt động",
+      "service": "Dịch vụ",
+      "other": "Tiện ích khác"
+    },
+    "included": "Đã bao gồm",
+    "surcharge": "Phụ thu"
+  },
+  "detail": {
+    "hero": {
+      "hotDeal": "Ưu đãi Hot",
+      "reviews": "{count} đánh giá",
+      "duration": "Thời gian",
+      "destination": "Điểm đến",
+      "groupSize": "Đoàn lớn",
+      "bookingCount": "Lượt đặt",
+      "bookNow": "Đặt tour ngay",
+      "contact": "Liên hệ",
+      "priceFrom": "Chỉ từ",
+      "perPerson": "/người"
+    },
+    "overview": {
+      "title": "Tổng quan",
+      "highlights": "Điểm nổi bật",
+      "included": "Bao gồm",
+      "notIncluded": "Không bao gồm",
+      "departure": "Khởi hành",
+      "transport": "Phương tiện",
+      "accommodation": "Chỗ ở",
+      "meals": "Bữa ăn"
+    },
+    "itinerary": {
+      "title": "Lịch trình",
+      "day": "Ngày {number}",
+      "morning": "Buổi sáng",
+      "afternoon": "Buổi chiều",
+      "evening": "Buổi tối",
+      "overnight": "Nghỉ đêm tại"
+    },
+    "amenities": {
+      "title": "Tiện ích",
+      "wifi": "Wifi miễn phí",
+      "breakfast": "Bữa sáng",
+      "pool": "Hồ bơi",
+      "spa": "Spa",
+      "gym": "Phòng tập",
+      "parking": "Bãi đỗ xe",
+      "airConditioner": "Điều hòa",
+      "restaurant": "Nhà hàng"
+    },
+    "booking": {
+      "selectDate": "Chọn ngày khởi hành",
+      "selectGuests": "Số lượng khách",
+      "adults": "Người lớn",
+      "children": "Trẻ em",
+      "infants": "Em bé",
+      "totalPrice": "Tổng giá",
+      "bookNow": "Đặt ngay",
+      "addToWishlist": "Thêm vào yêu thích",
+      "share": "Chia sẻ"
+    },
+    "reviews": {
+      "title": "Đánh giá",
+      "writeReview": "Viết đánh giá",
+      "averageRating": "Đánh giá trung bình",
+      "totalReviews": "{count} đánh giá",
+      "sortBy": "Sắp xếp",
+      "newest": "Mới nhất",
+      "highest": "Cao nhất",
+      "lowest": "Thấp nhất",
+      "helpful": "Hữu ích",
+      "reply": "Trả lời"
+    },
+    "related": {
+      "title": "Tour liên quan",
+      "viewAll": "Xem tất cả"
+    }
+  },
+  "search": {
+    "placeholder": "Tìm kiếm tour...",
+    "noResults": "Không tìm thấy tour",
+    "resultsCount": "Tìm thấy {count} tour"
+  },
+  "sort": {
+    "label": "Sắp xếp",
+    "priceAsc": "Giá: Thấp đến Cao",
+    "priceDesc": "Giá: Cao đến Thấp",
+    "rating": "Đánh giá cao nhất",
+    "popular": "Phổ biến nhất",
+    "newest": "Mới nhất"
+  },
+  "filter": {
+    "title": "Bộ lọc",
+    "priceRange": "Khoảng giá",
+    "duration": "Thời gian",
+    "rating": "Đánh giá",
+    "category": "Danh mục",
+    "location": "Địa điểm",
+    "apply": "Áp dụng",
+    "reset": "Đặt lại"
+  }
+}

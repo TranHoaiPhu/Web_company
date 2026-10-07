@@ -1,0 +1,184 @@
+{
+  "history": {
+    "title": "Order History",
+    "subtitle": "Track your booked tours",
+    "empty": {
+      "title": "No orders yet",
+      "message": "You don't have any orders. Book a tour now!",
+      "button": "Explore Tours"
+    },
+    "loading": "Loading orders..."
+  },
+  "empty": {
+    "title": "No orders yet",
+    "message": "You don't have any orders. Book a tour now!",
+    "exploreTours": "Explore Tours"
+  },
+  "pagination": {
+    "previous": "Previous",
+    "next": "Next",
+    "page": "Page"
+  },
+  "filters": {
+    "searchPlaceholder": "Search by order code or tour name...",
+    "allStatus": "All statuses",
+    "paid": "Paid",
+    "unpaid": "Unpaid",
+    "newestFirst": "Newest → Oldest",
+    "oldestFirst": "Oldest → Newest"
+  },
+  "payment": {
+    "paid": "Paid",
+    "unpaid": "Unpaid"
+  },
+  "guests": {
+    "adults": "adults",
+    "children": "children",
+    "infants": "infants"
+  },
+  "card": {
+    "discount": "Discount"
+  },
+  "status": {
+    "pending": "Pending",
+    "confirmed": "Confirmed",
+    "processing": "Processing",
+    "completed": "Completed",
+    "cancelled": "Cancelled",
+    "refunded": "Refunded"
+  },
+  "detail": {
+    "title": "Order Details",
+    "orderCode": "Order Code",
+    "orderDate": "Order Date",
+    "tourName": "Tour Name",
+    "departureDate": "Departure Date",
+    "guests": "Guests",
+    "adults": "Adults",
+    "children": "Children",
+    "infants": "Infants",
+    "totalPrice": "Total Price",
+    "paymentMethod": "Payment Method",
+    "paymentStatus": "Payment Status",
+    "contactInfo": "Contact Information",
+    "specialRequests": "Special Requests",
+    "notes": "Notes"
+  },
+  "actions": {
+    "viewDetail": "View Details",
+    "cancel": "Cancel Order",
+    "payNow": "Pay Now",
+    "reorder": "Reorder",
+    "download": "Download Invoice",
+    "print": "Print Invoice",
+    "contact": "Contact Support"
+  },
+  "filter": {
+    "all": "All",
+    "pending": "Pending",
+    "confirmed": "Confirmed",
+    "completed": "Completed",
+    "cancelled": "Cancelled"
+  },
+  "booking": {
+    "title": "Booking History",
+    "subtitle": "Here are all your bookings. You can view, edit or cancel them.",
+    "empty": {
+      "title": "No bookings yet",
+      "message": "You haven't booked any tours. Explore now!",
+      "button": "Find Tours"
+    },
+    "card": {
+      "tourCode": "Tour Code",
+      "departure": "Departure",
+      "guests": "Guests",
+      "status": "Status",
+      "price": "Price",
+      "placeId": "Place ID",
+      "bookingCode": "Booking Code",
+      "freeWifi": "Free Wifi",
+      "breakfast": "Breakfast",
+      "roomService": "Room Service",
+      "confirmed": "Your booking is confirmed",
+      "pending": "Pending confirmation",
+      "cancelled": "Booking cancelled",
+      "viewUserInfo": "View booker info",
+      "edit": "Edit"
+    },
+    "filter": {
+      "title": "Filter Bookings",
+      "expand": "Expand",
+      "collapse": "Collapse",
+      "filterBy": "Filter by",
+      "all": "All",
+      "place": "Place",
+      "date": "Date",
+      "status": "Status",
+      "placeCode": "Place Code",
+      "dateFormat": "Date (DD/MM/YYYY)",
+      "selectStatus": "-- Select status --",
+      "confirmed": "Confirmed",
+      "pendingConfirm": "Pending confirmation",
+      "cancelled": "Cancelled",
+      "clearFilter": "Clear filter",
+      "apply": "Apply",
+      "enterPlaceCode": "Enter place code..."
+    },
+    "modal": {
+      "userInfo": "Booker Information",
+      "editBooking": "Edit Booking",
+      "bookingDate": "Booking Date",
+      "placeId": "Place ID",
+      "saveChanges": "Save Changes",
+      "cancel": "Cancel",
+      "close": "Close",
+      "retry": "Retry",
+      "noInfo": "No information",
+      "male": "Male",
+      "female": "Female",
+      "email": "Email",
+      "phone": "Phone Number",
+      "cannotLoadUser": "Cannot load user information"
+    },
+    "loading": {
+      "bookingInfo": "Loading booking information...",
+      "userInfo": "Loading user information...",
+      "general": "Loading..."
+    },
+    "toast": {
+      "saveError": "Error saving changes",
+      "saveSuccess": "Changes saved successfully!"
+    }
+  },
+  "messages": {
+    "cancelConfirm": "Are you sure you want to cancel this order?",
+    "cancelSuccess": "Order cancelled successfully",
+    "cancelFailed": "Failed to cancel order. Please try again."
+  },
+  "detailPage": {
+    "loading": "Loading order data...",
+    "departFrom": "Depart from",
+    "guests": "guests",
+    "startDate": "Start Date",
+    "endDate": "End Date",
+    "paymentMethod": "Payment Method",
+    "paidAt": "Paid at",
+    "contactInfo": "Contact Information",
+    "contactName": "Contact Person",
+    "phone": "Phone Number",
+    "specialRequests": "Special Requests",
+    "participantList": "Participant List",
+    "includedServices": "Included Services",
+    "paymentDetails": "Payment Details",
+    "tourPrice": "Tour Package Price",
+    "discount": "Discount",
+    "total": "Total",
+    "paymentStatus": "Payment Status",
+    "viewTourDetail": "View Tour Details",
+    "review": "Review",
+    "errors": {
+      "noOrderCode": "Order code not found in URL.",
+      "fetchError": "Error fetching order data."
+    }
+  }
+}

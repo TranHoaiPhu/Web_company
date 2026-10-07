@@ -1,0 +1,137 @@
+{
+  "hero": {
+    "loading": "Đang tải banner...",
+    "error": "Lỗi tải banner",
+    "retry": "Thử lại",
+    "noBanners": "Chưa có banner nào",
+    "scrollDown": "Cuộn xuống",
+    "hotOffer": "Ưu đãi HOT",
+    "discount": "Giảm đến 50%",
+    "trending": "Trending"
+  },
+  "search": {
+    "destination": "Điểm đến",
+    "destinationPlaceholder": "Bạn muốn đi đâu?",
+    "departureDate": "Ngày khởi hành",
+    "guests": "Số người",
+    "guestOptions": {
+      "one": "1 người",
+      "two": "2 người",
+      "threeToFive": "3-5 người",
+      "sixPlus": "6+ người"
+    },
+    "searchButton": "Tìm kiếm"
+  },
+  "filters": {
+    "beach": "Biển đảo",
+    "mountain": "Núi rừng",
+    "culture": "Văn hóa",
+    "food": "Ẩm thực",
+    "adventure": "Mạo hiểm"
+  },
+  "stats": {
+    "destinations": "Điểm đến",
+    "customers": "Khách hàng",
+    "rating": "Đánh giá",
+    "satisfaction": "Hài lòng"
+  },
+  "whyChooseUs": {
+    "badge": "Cam Kết Chất Lượng",
+    "title": "Vì Sao Chọn",
+    "brandName": "TravelVN",
+    "subtitle": "Chúng tôi cam kết mang đến trải nghiệm du lịch tuyệt vời nhất với dịch vụ chuyên nghiệp và giá trị vượt trội",
+    "features": {
+      "transparentPrice": {
+        "title": "Giá minh bạch",
+        "description": "Không phí ẩn, không phụ thu bất ngờ. Giá niêm yết là giá cuối cùng bạn phải trả.",
+        "stats": "100% minh bạch"
+      },
+      "flexibleRefund": {
+        "title": "Hoàn huỷ linh hoạt",
+        "description": "Hoàn tiền 100% nếu huỷ trước 7 ngày. Chính sách linh hoạt vì kế hoạch của bạn có thể thay đổi.",
+        "stats": "Hoàn 100% trong 7 ngày"
+      },
+      "support247": {
+        "title": "Hỗ trợ 24/7",
+        "description": "Đội ngũ tư vấn chuyên nghiệp luôn sẵn sàng hỗ trợ bạn mọi lúc, mọi nơi qua hotline và chat.",
+        "stats": "Phản hồi < 2 phút"
+      },
+      "trustedPartners": {
+        "title": "Đối tác uy tín",
+        "description": "Hợp tác với 500+ khách sạn, resort 4-5 sao và hãng hàng không hàng đầu Việt Nam.",
+        "stats": "500+ đối tác"
+      }
+    },
+    "trustSignals": {
+      "securePayment": {
+        "title": "Bảo mật thanh toán",
+        "description": "SSL 256-bit encryption"
+      },
+      "awards": {
+        "title": "Giải thưởng",
+        "description": "Top 10 Travel 2024"
+      },
+      "customers": {
+        "title": "Khách hàng",
+        "description": "50,000+ người tin dùng"
+      },
+      "reviews": {
+        "title": "Đánh giá",
+        "description": "4.9/5 trên 10,000+ reviews"
+      }
+    },
+    "statsSection": {
+      "customers": "Khách hàng",
+      "partners": "Đối tác",
+      "successfulTours": "Tour thành công",
+      "rating": "Đánh giá"
+    },
+    "partners": {
+      "title": "Đối Tác Uy Tín"
+    },
+    "testimonials": {
+      "title": "Khách Hàng Nói Gì Về Chúng Tôi"
+    },
+    "guarantee": {
+      "title": "Cam Kết Hoàn Tiền 100%",
+      "description": "Nếu bạn không hài lòng với dịch vụ của chúng tôi, chúng tôi sẽ hoàn lại toàn bộ chi phí - không cần lý do!",
+      "securePayment": "Thanh toán bảo mật",
+      "freeInsurance": "Tặng bảo hiểm du lịch",
+      "support247": "Hỗ trợ 24/7"
+    },
+    "cta": {
+      "ready": "Sẵn sàng cho chuyến phiêu lưu tiếp theo?",
+      "exploreTours": "Khám phá Tour ngay →"
+    }
+  },
+  "tourCTA": {
+    "badge": "Ưu đãi đặc biệt",
+    "title": "Khám phá",
+    "titleHighlight": " Hành trình ",
+    "titleEnd": "của bạn",
+    "subtitle": "Trải nghiệm những chuyến đi tuyệt vời với dịch vụ tour cao cấp. Khởi hành ngay hôm nay!",
+    "stats": {
+      "destinations": "Điểm đến",
+      "customers": "Khách hàng",
+      "rating": "Đánh giá",
+      "daysPerYear": "Ngày/năm"
+    },
+    "buttons": {
+      "bookNow": "Đặt tour ngay",
+      "viewMore": "Xem thêm tour"
+    },
+    "trust": {
+      "bookedThisWeek": "người đã đặt tour tuần này"
+    },
+    "floatingCards": {
+      "discount": "Giảm 30%",
+      "summerTour": "Tour hè",
+      "bookNow": "Đặt ngay",
+      "freeCancellation": "Miễn phí hủy"
+    }
+  },
+  "page": {
+    "loadingMap": "Đang tải bản đồ...",
+    "checkingLogin": "Đang kiểm tra đăng nhập..."
+  }
+}

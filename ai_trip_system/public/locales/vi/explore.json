@@ -1,0 +1,77 @@
+{
+  "title": {
+    "explore": "Khám phá địa điểm",
+    "suggestions": "Gợi ý lộ trình du lịch"
+  },
+  "subtitle": "Tìm kiếm điểm đến hoàn hảo cho bạn",
+  "navigation": {
+    "back": "Quay lại"
+  },
+  "places": {
+    "title": "Địa điểm tại {province}",
+    "found": "{count} địa điểm được tìm thấy",
+    "empty": "Không tìm thấy địa điểm nào"
+  },
+  "toast": {
+    "foundPlaces": "Đã tìm thấy {count} địa điểm",
+    "loadComplete": "Đã tải xong địa điểm"
+  },
+  "search": {
+    "placeholder": "Tìm kiếm địa điểm, tour...",
+    "userPlaceholder": "Tìm kiếm người dùng...",
+    "button": "Tìm kiếm",
+    "noResults": "Không tìm thấy kết quả",
+    "resultsCount": "Tìm thấy {count} kết quả"
+  },
+  "filters": {
+    "all": "Tất cả",
+    "tours": "Tour",
+    "places": "Địa điểm",
+    "hotels": "Khách sạn",
+    "restaurants": "Nhà hàng"
+  },
+  "sort": {
+    "label": "Sắp xếp",
+    "popular": "Phổ biến nhất",
+    "rating": "Đánh giá cao",
+    "priceAsc": "Giá thấp đến cao",
+    "priceDesc": "Giá cao đến thấp",
+    "newest": "Mới nhất"
+  },
+  "placeCard": {
+    "viewDetails": "Xem chi tiết",
+    "reviews": "{count} đánh giá",
+    "distance": "{distance} km từ bạn"
+  },
+  "categories": {
+    "beach": "Biển đảo",
+    "mountain": "Núi rừng",
+    "city": "Thành phố",
+    "countryside": "Nông thôn",
+    "historical": "Di tích lịch sử",
+    "nature": "Thiên nhiên"
+  },
+  "loading": "Đang tải...",
+  "error": {
+    "title": "Có lỗi xảy ra",
+    "message": "Không thể tải dữ liệu. Vui lòng thử lại.",
+    "retry": "Thử lại"
+  },
+  "empty": {
+    "title": "Chưa có dữ liệu",
+    "message": "Hãy thử tìm kiếm với từ khóa khác"
+  },
+  "guide": {
+    "title": "Hướng dẫn khám phá bản đồ",
+    "description": "Chọn một điểm bất kỳ trên bản đồ. Hệ thống sẽ dùng Google Maps để tự nhận diện tỉnh/thành phố và gợi ý các địa điểm du lịch xung quanh khu vực đó.",
+    "steps": {
+      "1": "Phóng to/thu nhỏ bản đồ tới khu vực bạn quan tâm.",
+      "2": "Nhấn vào vị trí mong muốn trên bản đồ.",
+      "3": "Chờ vài giây để hệ thống tìm kiếm và hiển thị danh sách địa điểm ở cột bên phải.",
+      "4": "Nhấn vào từng địa điểm để xem chi tiết chi tiết hơn."
+    },
+    "note": "Lưu ý: Kết quả được kết hợp từ dữ liệu hệ thống và Google Places. Nếu không tìm thấy địa điểm nào, hãy thử chọn vị trí khác gần trung tâm tỉnh/thành phố.",
+    "hideGuide": "Ẩn hướng dẫn",
+    "showGuide": "Hiện hướng dẫn"
+  }
+}

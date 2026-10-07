@@ -1,0 +1,60 @@
+# Node modules
+node_modules
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Git
+.git
+.gitignore
+.gitattributes
+
+# Testing
+test
+*.test.js
+coverage
+
+# Documentation
+README.md
+*.md
+!package.json
+
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs
+*.log
+chatbot.log
+
+# Temporary files
+tmp
+temp
+*.tmp
+
+# Build files
+dist
+build
+
+# Service account key (will be provided via secret)
+service-account-key.json
+
+# Cloud Build
+cloudbuild.yaml
+
+# Misc
+.dockerignore
+Dockerfile

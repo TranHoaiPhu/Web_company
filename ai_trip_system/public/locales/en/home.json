@@ -1,0 +1,137 @@
+{
+  "hero": {
+    "loading": "Loading banners...",
+    "error": "Failed to load banners",
+    "retry": "Retry",
+    "noBanners": "No banners available",
+    "scrollDown": "Scroll down",
+    "hotOffer": "HOT Offer",
+    "discount": "Up to 50% off",
+    "trending": "Trending"
+  },
+  "search": {
+    "destination": "Destination",
+    "destinationPlaceholder": "Where do you want to go?",
+    "departureDate": "Departure Date",
+    "guests": "Guests",
+    "guestOptions": {
+      "one": "1 person",
+      "two": "2 people",
+      "threeToFive": "3-5 people",
+      "sixPlus": "6+ people"
+    },
+    "searchButton": "Search"
+  },
+  "filters": {
+    "beach": "Beach",
+    "mountain": "Mountain",
+    "culture": "Culture",
+    "food": "Food",
+    "adventure": "Adventure"
+  },
+  "stats": {
+    "destinations": "Destinations",
+    "customers": "Customers",
+    "rating": "Rating",
+    "satisfaction": "Satisfaction"
+  },
+  "whyChooseUs": {
+    "badge": "Quality Commitment",
+    "title": "Why Choose",
+    "brandName": "TravelVN",
+    "subtitle": "We are committed to delivering the best travel experience with professional service and outstanding value",
+    "features": {
+      "transparentPrice": {
+        "title": "Transparent Pricing",
+        "description": "No hidden fees, no surprise charges. The listed price is the final price you pay.",
+        "stats": "100% transparent"
+      },
+      "flexibleRefund": {
+        "title": "Flexible Refund",
+        "description": "100% refund if cancelled 7 days in advance. Flexible policy because your plans may change.",
+        "stats": "100% refund within 7 days"
+      },
+      "support247": {
+        "title": "24/7 Support",
+        "description": "Professional consulting team always ready to support you anytime, anywhere via hotline and chat.",
+        "stats": "Response < 2 minutes"
+      },
+      "trustedPartners": {
+        "title": "Trusted Partners",
+        "description": "Partnered with 500+ 4-5 star hotels, resorts and leading airlines in Vietnam.",
+        "stats": "500+ partners"
+      }
+    },
+    "trustSignals": {
+      "securePayment": {
+        "title": "Secure Payment",
+        "description": "SSL 256-bit encryption"
+      },
+      "awards": {
+        "title": "Awards",
+        "description": "Top 10 Travel 2024"
+      },
+      "customers": {
+        "title": "Customers",
+        "description": "50,000+ trusted users"
+      },
+      "reviews": {
+        "title": "Reviews",
+        "description": "4.9/5 on 10,000+ reviews"
+      }
+    },
+    "statsSection": {
+      "customers": "Customers",
+      "partners": "Partners",
+      "successfulTours": "Successful Tours",
+      "rating": "Rating"
+    },
+    "partners": {
+      "title": "Trusted Partners"
+    },
+    "testimonials": {
+      "title": "What Our Customers Say"
+    },
+    "guarantee": {
+      "title": "100% Money Back Guarantee",
+      "description": "If you're not satisfied with our service, we'll refund the full amount - no questions asked!",
+      "securePayment": "Secure payment",
+      "freeInsurance": "Free travel insurance",
+      "support247": "24/7 Support"
+    },
+    "cta": {
+      "ready": "Ready for your next adventure?",
+      "exploreTours": "Explore Tours Now →"
+    }
+  },
+  "tourCTA": {
+    "badge": "Special Offer",
+    "title": "Discover",
+    "titleHighlight": " Your Journey ",
+    "titleEnd": "",
+    "subtitle": "Experience amazing trips with premium tour services. Depart today!",
+    "stats": {
+      "destinations": "Destinations",
+      "customers": "Customers",
+      "rating": "Rating",
+      "daysPerYear": "Days/year"
+    },
+    "buttons": {
+      "bookNow": "Book Tour Now",
+      "viewMore": "View More Tours"
+    },
+    "trust": {
+      "bookedThisWeek": "people booked tours this week"
+    },
+    "floatingCards": {
+      "discount": "30% Off",
+      "summerTour": "Summer Tour",
+      "bookNow": "Book Now",
+      "freeCancellation": "Free Cancellation"
+    }
+  },
+  "page": {
+    "loadingMap": "Loading map...",
+    "checkingLogin": "Checking login..."
+  }
+}

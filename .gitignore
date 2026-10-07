@@ -1,0 +1,64 @@
+# Setup & Documentation folder (optional)
+Set_Up/
+
+# Reference materials
+Tham_Khao/
+
+# Backup folders
+API_backup/
+
+# Environment variables (NEVER commit these!)
+.env*
+!.env.example
+
+# Dependencies
+node_modules/
+.pnp
+.pnp.*
+
+# Build outputs
+.next/
+out/
+dist/
+build/
+.nuxt/
+.vercel/
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+.env/
+
+# Logs & OS
+*.log
+logs/
+.DS_Store
+Thumbs.db
+
+# Claude Code Skills (Confidential - For AI Assistant Only)
+.claude/
+.kiro/
+.remember/
+
+# IDE Settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Credentials (NEVER commit!)
+*.pem
+*.key
+service-account-key.json
+*-service-account-*.json
+*.key.json
+GCP_CONFIG.txt
+
+# Project tracking files
+PROGRESS.md
+REMAINING_WORK.md
+SUMMARY.md
+
+Task*

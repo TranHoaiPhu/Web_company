@@ -1,0 +1,54 @@
+{
+  "http": {
+    "400": "Yêu cầu không hợp lệ",
+    "401": "Bạn cần đăng nhập để tiếp tục",
+    "403": "Bạn không có quyền truy cập",
+    "404": "Không tìm thấy trang",
+    "500": "Lỗi máy chủ. Vui lòng thử lại sau.",
+    "502": "Máy chủ không phản hồi",
+    "503": "Dịch vụ tạm thời không khả dụng"
+  },
+
+  "network": {
+    "offline": "Không có kết nối mạng",
+    "timeout": "Kết nối hết thời gian chờ",
+    "connectionFailed": "Không thể kết nối đến máy chủ",
+    "slowConnection": "Kết nối mạng chậm"
+  },
+
+  "permission": {
+    "locationDenied": "Quyền truy cập vị trí đã bị từ chối. Vui lòng bật lại trong cài đặt trình duyệt.",
+    "locationFailed": "Không thể lấy vị trí của bạn.",
+    "locationDeniedByUser": "Bạn đã từ chối chia sẻ vị trí. Vui lòng bật lại trong cài đặt trình duyệt.",
+    "cameraDenied": "Quyền truy cập máy ảnh bị từ chối",
+    "storageDenied": "Quyền truy cập bộ nhớ bị từ chối"
+  },
+
+  "api": {
+    "invalidResponse": "Phản hồi không hợp lệ từ máy chủ",
+    "serverError": "Lỗi máy chủ",
+    "rateLimit": "Bạn đã gửi quá nhiều yêu cầu. Vui lòng thử lại sau.",
+    "maintenance": "Hệ thống đang bảo trì. Vui lòng quay lại sau."
+  },
+
+  "chatbot": {
+    "connectionFailed": "Xin lỗi, không thể kết nối đến chatbot. Vui lòng thử lại sau.",
+    "processingFailed": "Không thể xử lý tin nhắn",
+    "timeout": "Chatbot không phản hồi. Vui lòng thử lại."
+  },
+
+  "generic": {
+    "unknown": "Đã có lỗi xảy ra",
+    "unexpected": "Lỗi không mong muốn",
+    "tryAgain": "Vui lòng thử lại",
+    "contactSupport": "Vui lòng liên hệ hỗ trợ nếu vấn đề vẫn tiếp diễn"
+  },
+
+  "review": {
+    "loadFailed": "Không thể tải đánh giá. Vui lòng thử lại sau.",
+    "loadError": "Có lỗi xảy ra trong lúc tải đánh giá. Vui lòng thử lại sau.",
+    "submitFailed": "Không thể gửi đánh giá. Vui lòng thử lại sau.",
+    "submitError": "Có lỗi xảy ra trong lúc cập nhật đánh giá. Vui lòng thử lại sau.",
+    "contentRequired": "Vui lòng nhập nội dung đánh giá"
+  }
+}

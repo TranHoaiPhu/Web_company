@@ -1,0 +1,149 @@
+{
+  "title": "Hồ sơ cá nhân",
+  "subtitle": "Quản lý thông tin tài khoản của bạn",
+  "sidebar": {
+    "memberProfile": "Hồ sơ thành viên",
+    "myTrips": "Chuyến đi của tôi",
+    "myReviews": "Đánh giá của tôi",
+    "favorites": "Tour yêu thích",
+    "security": "Bảo mật & Mật khẩu",
+    "logout": "Đăng xuất",
+    "user": "Người dùng"
+  },
+  "tabs": {
+    "info": "Thông tin",
+    "security": "Bảo mật",
+    "preferences": "Tùy chọn",
+    "notifications": "Thông báo"
+  },
+  "info": {
+    "title": "Thông tin cá nhân",
+    "avatar": "Ảnh đại diện",
+    "changeAvatar": "Thay đổi ảnh",
+    "removeAvatar": "Xóa ảnh",
+    "fullName": "Họ và tên",
+    "displayName": "Tên hiển thị",
+    "email": "Email",
+    "phone": "Số điện thoại",
+    "dateOfBirth": "Ngày sinh",
+    "gender": "Giới tính",
+    "genderOptions": {
+      "male": "Nam",
+      "female": "Nữ",
+      "other": "Khác"
+    },
+    "address": "Địa chỉ",
+    "city": "Thành phố",
+    "country": "Quốc gia",
+    "bio": "Giới thiệu",
+    "saveChanges": "Lưu thay đổi",
+    "edit": "Chỉnh sửa",
+    "verified": "Đã xác thực",
+    "notUpdated": "Chưa cập nhật",
+    "joinedDate": "Ngày tham gia"
+  },
+  "security": {
+    "title": "Bảo mật tài khoản",
+    "changePassword": "Đổi mật khẩu",
+    "currentPassword": "Mật khẩu hiện tại",
+    "newPassword": "Mật khẩu mới",
+    "confirmPassword": "Xác nhận mật khẩu",
+    "twoFactor": "Xác thực 2 bước",
+    "twoFactorDesc": "Thêm lớp bảo mật cho tài khoản của bạn",
+    "enable": "Bật",
+    "disable": "Tắt",
+    "sessions": "Phiên đăng nhập",
+    "logoutAll": "Đăng xuất tất cả thiết bị",
+    "loginEmail": "Email đăng nhập",
+    "password": "Mật khẩu",
+    "securityPhone": "Số điện thoại bảo mật",
+    "securityPhoneDesc": "Dùng để khôi phục tài khoản"
+  },
+  "trips": {
+    "title": "Chuyến đi của tôi",
+    "upcoming": "Sắp tới",
+    "history": "Lịch sử",
+    "cancelled": "Đã hủy"
+  },
+  "reviews": {
+    "title": "Đánh giá của tôi"
+  },
+  "favorites": {
+    "title": "Tour đã yêu thích"
+  },
+  "modal": {
+    "updateProfile": "Cập nhật hồ sơ",
+    "changePassword": "Đổi mật khẩu",
+    "cancel": "Hủy",
+    "save": "Lưu thay đổi",
+    "saving": "Đang lưu...",
+    "processing": "Đang xử lý...",
+    "addressPlaceholder": "Nhập địa chỉ hoặc chọn trên bản đồ",
+    "oldPasswordPlaceholder": "Nhập mật khẩu cũ",
+    "newPasswordPlaceholder": "Nhập mật khẩu mới (min 6 ký tự)",
+    "confirmPasswordPlaceholder": "Nhập lại mật khẩu mới"
+  },
+  "preferences": {
+    "title": "Tùy chọn",
+    "language": "Ngôn ngữ",
+    "theme": "Giao diện",
+    "themeOptions": {
+      "light": "Sáng",
+      "dark": "Tối",
+      "system": "Theo hệ thống"
+    },
+    "currency": "Tiền tệ",
+    "timezone": "Múi giờ"
+  },
+  "notifications": {
+    "title": "Cài đặt thông báo",
+    "email": "Thông báo qua email",
+    "push": "Thông báo đẩy",
+    "sms": "Thông báo SMS",
+    "marketing": "Tin tức và khuyến mãi",
+    "orderUpdates": "Cập nhật đơn hàng",
+    "tourReminders": "Nhắc nhở tour"
+  },
+  "settings": {
+    "title": "Cài đặt",
+    "account": "Tài khoản",
+    "privacy": "Quyền riêng tư",
+    "deleteAccount": "Xóa tài khoản",
+    "deleteWarning": "Hành động này không thể hoàn tác. Tất cả dữ liệu của bạn sẽ bị xóa vĩnh viễn.",
+    "appearance": "Giao diện",
+    "themeLabel": "Chủ đề",
+    "theme": {
+      "light": "Sáng",
+      "dark": "Tối",
+      "auto": "Tự động"
+    },
+    "language": "Ngôn ngữ",
+    "languageLabel": "Ngôn ngữ hiển thị",
+    "save": "Lưu cài đặt",
+    "saving": "Đang lưu...",
+    "loading": "Đang tải...",
+    "error": "Lỗi tải dữ liệu",
+    "toast": {
+      "saveSuccess": "Cài đặt đã được lưu thành công",
+      "saveError": "Có lỗi xảy ra khi lưu cài đặt"
+    }
+  },
+  "stats": {
+    "totalTrips": "Tổng chuyến đi",
+    "totalSpent": "Tổng chi tiêu",
+    "memberSince": "Thành viên từ",
+    "loyaltyPoints": "Điểm tích lũy"
+  },
+  "messages": {
+    "updateSuccess": "Hồ sơ đã được cập nhật thành công!",
+    "updateFailed": "Đã xảy ra lỗi khi lưu thông tin.",
+    "passwordChanged": "Đổi mật khẩu thành công! Đang đăng xuất...",
+    "passwordMismatch": "Mật khẩu xác nhận không khớp",
+    "passwordTooShort": "Mật khẩu mới phải có ít nhất 6 ký tự",
+    "fillAllFields": "Vui lòng điền đầy đủ thông tin",
+    "passwordChangeFailed": "Đổi mật khẩu thất bại",
+    "passwordChangeError": "Lỗi khi đổi mật khẩu",
+    "avatarUpdated": "Cập nhật ảnh đại diện thành công",
+    "failedToLoad": "Không thể tải dữ liệu"
+  }
+}

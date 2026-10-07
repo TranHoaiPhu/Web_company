@@ -1,0 +1,101 @@
+{
+  "title": "Đặt tour",
+  "subtitle": "Hoàn tất thông tin đặt chỗ của bạn",
+
+  "steps": {
+    "info": "Thông tin",
+    "review": "Xem lại",
+    "payment": "Thanh toán",
+    "confirm": "Xác nhận"
+  },
+
+  "tourInfo": {
+    "title": "Thông tin tour",
+    "name": "Tên tour",
+    "date": "Ngày khởi hành",
+    "duration": "Thời gian",
+    "price": "Giá",
+    "pricePerPerson": "Giá / người"
+  },
+
+  "guests": {
+    "title": "Thông tin khách",
+    "adults": "Người lớn",
+    "children": "Trẻ em",
+    "infants": "Em bé",
+    "total": "Tổng số khách",
+    "add": "Thêm khách",
+    "remove": "Xóa khách",
+    "fullName": "Họ và tên",
+    "age": "Tuổi",
+    "gender": "Giới tính"
+  },
+
+  "contact": {
+    "title": "Thông tin liên hệ",
+    "fullName": "Họ và tên",
+    "email": "Email",
+    "phone": "Số điện thoại",
+    "address": "Địa chỉ",
+    "note": "Ghi chú (tùy chọn)",
+    "notePlaceholder": "Yêu cầu đặc biệt, nhu cầu ăn kiêng, v.v."
+  },
+
+  "pricing": {
+    "title": "Chi tiết giá",
+    "subtotal": "Tạm tính",
+    "discount": "Giảm giá",
+    "discountAmount": "Số tiền giảm",
+    "tax": "Thuế VAT",
+    "total": "Tổng cộng",
+    "deposit": "Đặt cọc",
+    "remaining": "Còn lại"
+  },
+
+  "coupon": {
+    "title": "Mã giảm giá",
+    "placeholder": "Nhập mã giảm giá",
+    "apply": "Áp dụng",
+    "remove": "Xóa",
+    "applied": "Đã áp dụng",
+    "invalid": "Mã không hợp lệ",
+    "expired": "Mã đã hết hạn",
+    "success": "Áp dụng mã thành công!"
+  },
+
+  "paymentMethod": {
+    "title": "Phương thức thanh toán",
+    "select": "Chọn phương thức thanh toán",
+    "vnpay": "VNPay",
+    "momo": "MoMo",
+    "credit": "Thẻ tín dụng/Ghi nợ",
+    "bank": "Chuyển khoản ngân hàng",
+    "cash": "Tiền mặt"
+  },
+
+  "buttons": {
+    "next": "Tiếp tục",
+    "back": "Quay lại",
+    "confirm": "Xác nhận đặt chỗ",
+    "cancel": "Hủy",
+    "edit": "Chỉnh sửa",
+    "bookNow": "Đặt ngay"
+  },
+
+  "errors": {
+    "incompleteContact": "Vui lòng điền đầy đủ thông tin liên hệ",
+    "incompleteGuests": "Thông tin khách chưa đầy đủ",
+    "noPaymentMethod": "Vui lòng chọn phương thức thanh toán",
+    "userNotFound": "Không tìm thấy thông tin người dùng. Vui lòng đăng nhập lại.",
+    "bookingFailed": "Đã có lỗi xảy ra khi tạo đặt chỗ. Vui lòng thử lại.",
+    "vnpayError": "Lỗi khi tạo link thanh toán VNPay!",
+    "momoError": "Lỗi khi tạo link thanh toán MoMo!",
+    "invalidCoupon": "Mã giảm giá không hợp lệ"
+  },
+
+  "messages": {
+    "processing": "Đang xử lý đặt chỗ...",
+    "success": "Đặt chỗ thành công!",
+    "redirect": "Đang chuyển đến trang thanh toán..."
+  }
+}

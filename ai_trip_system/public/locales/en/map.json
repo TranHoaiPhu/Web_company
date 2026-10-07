@@ -1,0 +1,89 @@
+{
+  "title": "Map",
+  "loading": "Loading map...",
+  "legend": {
+    "title": "Legend",
+    "tours": "Tours",
+    "hotels": "Hotels",
+    "restaurants": "Restaurants",
+    "attractions": "Attractions",
+    "yourLocation": "Your Location",
+    "restaurantEatery": "Restaurants, Eateries",
+    "hotelResort": "Hotels, Resorts",
+    "touristSpot": "Tourist Spots",
+    "otherPlaces": "Other Places"
+  },
+  "placeTypes": {
+    "restaurant": "Restaurant",
+    "hotel": "Hotel",
+    "attraction": "Tourist Spot"
+  },
+  "placeCard": {
+    "viewDetails": "View Details",
+    "getDirections": "Get Directions",
+    "distance": "{distance} km",
+    "rating": "{rating} stars",
+    "reviews": "{count} reviews",
+    "openNow": "Open Now",
+    "closed": "Closed",
+    "tabs": {
+      "info": "Information",
+      "reviews": "Reviews"
+    },
+    "description": "Description",
+    "noDescription": "No description available.",
+    "detailedInfo": "Detailed Information",
+    "openHours": "Opening Hours",
+    "ticketPrice": "Ticket Price",
+    "contactForDetails": "Contact for more details",
+    "idealTime": "Ideal Time",
+    "earlyMorningEvening": "Early morning or evening",
+    "address": "Address",
+    "featuredActivities": "Featured Activities",
+    "bookNearbyHotel": "Book Nearby Hotel",
+    "details": "Details"
+  },
+  "place": {
+    "nearby": "Nearby",
+    "nearbyPlaces": "Nearby Places",
+    "noNearbyPlaces": "No information about nearby places.",
+    "noReviewsInfo": "Cannot display reviews due to missing place information.",
+    "viewOnMap": "View on Map",
+    "share": "Share"
+  },
+  "activities": {
+    "restaurant": ["Enjoy cuisine", "Meet friends", "Experience local food"],
+    "hotel": ["Relax", "Unwind", "Use hotel amenities"],
+    "beach": ["Swim", "Relax", "Water sports"],
+    "default": ["Sightseeing", "Photography", "Explore"]
+  },
+  "controls": {
+    "zoomIn": "Zoom In",
+    "zoomOut": "Zoom Out",
+    "myLocation": "My Location",
+    "fullscreen": "Fullscreen",
+    "layers": "Layers"
+  },
+  "layers": {
+    "default": "Default",
+    "satellite": "Satellite",
+    "terrain": "Terrain"
+  },
+  "search": {
+    "placeholder": "Search on map...",
+    "mapPlaceholder": "Search places on map",
+    "noResults": "No places found"
+  },
+  "filters": {
+    "all": "All",
+    "tours": "Tours",
+    "hotels": "Hotels",
+    "restaurants": "Restaurants",
+    "attractions": "Attractions"
+  },
+  "error": {
+    "loadFailed": "Failed to load map",
+    "locationDenied": "Location access denied",
+    "retry": "Retry"
+  }
+}

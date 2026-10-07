@@ -1,0 +1,76 @@
+{
+  "title": "Thanh toán",
+  "subtitle": "Xác nhận và hoàn tất thanh toán",
+
+  "result": {
+    "success": "Thanh toán thành công",
+    "failed": "Thanh toán thất bại",
+    "pending": "Đang xử lý thanh toán",
+    "successMessage": "Đơn hàng của bạn đã được thanh toán thành công!",
+    "failedMessage": "Thanh toán không thành công. Vui lòng thử lại.",
+    "pendingMessage": "Thanh toán đang được xử lý..."
+  },
+
+  "methods": {
+    "title": "Phương thức thanh toán",
+    "vnpay": "VNPay",
+    "vnpayDesc": "Thanh toán qua VNPay",
+    "momo": "MoMo",
+    "momoDesc": "Thanh toán qua ví MoMo",
+    "credit": "Thẻ tín dụng/Ghi nợ",
+    "creditDesc": "Visa, MasterCard, JCB",
+    "bank": "Chuyển khoản ngân hàng",
+    "bankDesc": "Chuyển khoản trực tiếp",
+    "cash": "Tiền mặt",
+    "cashDesc": "Thanh toán tại văn phòng"
+  },
+
+  "cardInfo": {
+    "title": "Thông tin thẻ",
+    "number": "Số thẻ",
+    "numberPlaceholder": "0000 0000 0000 0000",
+    "name": "Tên chủ thẻ",
+    "namePlaceholder": "Họ và tên trên thẻ",
+    "expiry": "Ngày hết hạn",
+    "expiryPlaceholder": "MM/YY",
+    "cvv": "Mã CVV",
+    "cvvPlaceholder": "123"
+  },
+
+  "summary": {
+    "title": "Tóm tắt đơn hàng",
+    "orderCode": "Mã đơn hàng",
+    "tourName": "Tên tour",
+    "date": "Ngày khởi hành",
+    "guests": "Số khách",
+    "adults": "người lớn",
+    "children": "trẻ em",
+    "infants": "em bé",
+    "subtotal": "Tạm tính",
+    "discount": "Giảm giá",
+    "tax": "Thuế",
+    "total": "Tổng cộng",
+    "amount": "Số tiền thanh toán"
+  },
+
+  "security": {
+    "title": "Bảo mật",
+    "message": "Thông tin thẻ của bạn được mã hóa và bảo mật",
+    "ssl": "Kết nối được bảo vệ bằng SSL 256-bit"
+  },
+
+  "buttons": {
+    "pay": "Thanh toán",
+    "payAmount": "Thanh toán {amount}",
+    "cancel": "Hủy",
+    "retry": "Thử lại",
+    "backToHome": "Về trang chủ",
+    "viewOrder": "Xem đơn hàng"
+  },
+
+  "messages": {
+    "processing": "Đang xử lý thanh toán...",
+    "verifying": "Đang xác thực thông tin...",
+    "redirecting": "Đang chuyển hướng..."
+  }
+}

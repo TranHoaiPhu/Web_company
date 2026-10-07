@@ -1,0 +1,89 @@
+{
+  "title": "Bản đồ",
+  "loading": "Đang tải bản đồ...",
+  "legend": {
+    "title": "Chú thích",
+    "tours": "Tour",
+    "hotels": "Khách sạn",
+    "restaurants": "Nhà hàng",
+    "attractions": "Điểm tham quan",
+    "yourLocation": "Vị trí của bạn",
+    "restaurantEatery": "Nhà hàng, Quán ăn",
+    "hotelResort": "Khách sạn, Resort",
+    "touristSpot": "Điểm du lịch",
+    "otherPlaces": "Các địa điểm khác"
+  },
+  "placeTypes": {
+    "restaurant": "Nhà hàng",
+    "hotel": "Khách sạn",
+    "attraction": "Điểm du lịch"
+  },
+  "placeCard": {
+    "viewDetails": "Xem chi tiết",
+    "getDirections": "Chỉ đường",
+    "distance": "{distance} km",
+    "rating": "{rating} sao",
+    "reviews": "{count} đánh giá",
+    "openNow": "Đang mở cửa",
+    "closed": "Đã đóng cửa",
+    "tabs": {
+      "info": "Thông tin",
+      "reviews": "Đánh giá"
+    },
+    "description": "Mô tả",
+    "noDescription": "Chưa có thông tin mô tả.",
+    "detailedInfo": "Thông tin chi tiết",
+    "openHours": "Giờ mở cửa",
+    "ticketPrice": "Giá vé",
+    "contactForDetails": "Liên hệ để biết thêm chi tiết",
+    "idealTime": "Thời điểm lý tưởng",
+    "earlyMorningEvening": "Sáng sớm hoặc chiều tối",
+    "address": "Địa chỉ",
+    "featuredActivities": "Hoạt động nổi bật",
+    "bookNearbyHotel": "Đặt khách sạn gần đây",
+    "details": "Chi tiết"
+  },
+  "place": {
+    "nearby": "Lân cận",
+    "nearbyPlaces": "Địa điểm lân cận",
+    "noNearbyPlaces": "Không có thông tin về các địa điểm lân cận.",
+    "noReviewsInfo": "Không thể hiển thị đánh giá do thiếu thông tin địa điểm.",
+    "viewOnMap": "Xem trên bản đồ",
+    "share": "Chia sẻ"
+  },
+  "activities": {
+    "restaurant": ["Thưởng thức ẩm thực", "Gặp gỡ bạn bè", "Trải nghiệm món ăn địa phương"],
+    "hotel": ["Nghỉ dưỡng", "Thư giãn", "Sử dụng tiện ích khách sạn"],
+    "beach": ["Tắm biển", "Thư giãn", "Thể thao nước"],
+    "default": ["Tham quan", "Chụp ảnh", "Khám phá"]
+  },
+  "controls": {
+    "zoomIn": "Phóng to",
+    "zoomOut": "Thu nhỏ",
+    "myLocation": "Vị trí của tôi",
+    "fullscreen": "Toàn màn hình",
+    "layers": "Lớp bản đồ"
+  },
+  "layers": {
+    "default": "Mặc định",
+    "satellite": "Vệ tinh",
+    "terrain": "Địa hình"
+  },
+  "search": {
+    "placeholder": "Tìm kiếm trên bản đồ...",
+    "mapPlaceholder": "Tìm kiếm địa điểm trên bản đồ",
+    "noResults": "Không tìm thấy địa điểm"
+  },
+  "filters": {
+    "all": "Tất cả",
+    "tours": "Tour",
+    "hotels": "Khách sạn",
+    "restaurants": "Nhà hàng",
+    "attractions": "Điểm tham quan"
+  },
+  "error": {
+    "loadFailed": "Không thể tải bản đồ",
+    "locationDenied": "Quyền truy cập vị trí bị từ chối",
+    "retry": "Thử lại"
+  }
+}

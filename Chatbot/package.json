@@ -1,0 +1,39 @@
+{
+  "name": "travellingchatbot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node test/test-simple.js",
+    "test:api": "node test/test-api-examples.js",
+    "test:memory": "node test/test-conversation-memory.js",
+    "test:cache": "node test/test-memory-cache.js",
+    "test:gemini3": "node test/test-gemini3.js",
+    "test:vertex": "node test/test-vertex-ai.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "Travel RAG Chatbot using LangChain, LangGraph and Tavily Search",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "@langchain/community": "^0.3.59",
+    "@langchain/core": "^0.3.57",
+    "@langchain/langgraph": "^0.2.74",
+    "@langchain/openai": "^0.5.11",
+    "@langchain/textsplitters": "^0.1.0",
+    "cheerio": "^1.0.0",
+    "cors": "^2.8.6",
+    "dotenv": "^16.4.5",
+    "express": "^5.1.0",
+    "google-auth-library": "^10.5.0",
+    "langchain": "^0.3.37",
+    "redis": "^5.1.0",
+    "zod": "^3.25.23",
+    "zod-to-json-schema": "^3.24.5"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2"
+  }
+}

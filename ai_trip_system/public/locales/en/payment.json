@@ -1,0 +1,76 @@
+{
+  "title": "Payment",
+  "subtitle": "Confirm and complete payment",
+
+  "result": {
+    "success": "Payment Successful",
+    "failed": "Payment Failed",
+    "pending": "Processing Payment",
+    "successMessage": "Your order has been paid successfully!",
+    "failedMessage": "Payment unsuccessful. Please try again.",
+    "pendingMessage": "Payment is being processed..."
+  },
+
+  "methods": {
+    "title": "Payment Method",
+    "vnpay": "VNPay",
+    "vnpayDesc": "Pay with VNPay",
+    "momo": "MoMo",
+    "momoDesc": "Pay with MoMo Wallet",
+    "credit": "Credit/Debit Card",
+    "creditDesc": "Visa, MasterCard, JCB",
+    "bank": "Bank Transfer",
+    "bankDesc": "Direct bank transfer",
+    "cash": "Cash",
+    "cashDesc": "Pay at office"
+  },
+
+  "cardInfo": {
+    "title": "Card Information",
+    "number": "Card Number",
+    "numberPlaceholder": "0000 0000 0000 0000",
+    "name": "Cardholder Name",
+    "namePlaceholder": "Name on card",
+    "expiry": "Expiry Date",
+    "expiryPlaceholder": "MM/YY",
+    "cvv": "CVV Code",
+    "cvvPlaceholder": "123"
+  },
+
+  "summary": {
+    "title": "Order Summary",
+    "orderCode": "Order Code",
+    "tourName": "Tour Name",
+    "date": "Departure Date",
+    "guests": "Number of Guests",
+    "adults": "adult(s)",
+    "children": "child(ren)",
+    "infants": "infant(s)",
+    "subtotal": "Subtotal",
+    "discount": "Discount",
+    "tax": "Tax",
+    "total": "Total",
+    "amount": "Payment Amount"
+  },
+
+  "security": {
+    "title": "Security",
+    "message": "Your card information is encrypted and secure",
+    "ssl": "Connection protected by 256-bit SSL"
+  },
+
+  "buttons": {
+    "pay": "Pay",
+    "payAmount": "Pay {amount}",
+    "cancel": "Cancel",
+    "retry": "Retry",
+    "backToHome": "Back to Home",
+    "viewOrder": "View Order"
+  },
+
+  "messages": {
+    "processing": "Processing payment...",
+    "verifying": "Verifying information...",
+    "redirecting": "Redirecting..."
+  }
+}

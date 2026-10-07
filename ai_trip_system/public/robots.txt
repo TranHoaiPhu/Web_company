@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://ai-trip-system.vercel.app
+
+# Sitemaps
+Sitemap: https://ai-trip-system.vercel.app/sitemap.xml

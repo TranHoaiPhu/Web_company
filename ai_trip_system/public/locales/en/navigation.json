@@ -1,0 +1,38 @@
+{
+  "nav": {
+    "home": "Home",
+    "explore": "Explore",
+    "tours": "Tours",
+    "destinations": "Destinations",
+    "deals": "Deals",
+    "blog": "Blog",
+    "contact": "Contact",
+    "assistance": "Assistance",
+    "trips": "Trips",
+    "login": "Login",
+    "register": "Register",
+    "logout": "Logout",
+    "account": "Account",
+    "myTours": "My Tours",
+    "wishlist": "Wishlist",
+    "myOrders": "My Orders",
+    "search": "Search tours...",
+    "searchPlaceholder": "Enter tour name, location...",
+    "bookNow": "Book Now",
+    "member": "Member",
+    "personalAccount": "Personal Account",
+    "bookedTours": "Booked Tours",
+    "menu": "Menu"
+  },
+  "footer": {
+    "group11": "Group 11",
+    "aboutUs": "About Us",
+    "intro": "Introduction",
+    "contactInfo": "Contact Information",
+    "email": "Email",
+    "hotline": "Hotline",
+    "faq": "FAQ",
+    "connect": "Connect With Us",
+    "copyright": "Copyright @ 2025 | All Rights Reserved."
+  }
+}

@@ -1,0 +1,184 @@
+{
+  "history": {
+    "title": "Lịch sử đơn hàng",
+    "subtitle": "Theo dõi các tour bạn đã đặt",
+    "empty": {
+      "title": "Chưa có đơn hàng nào",
+      "message": "Bạn chưa có đơn hàng nào. Hãy đặt tour ngay!",
+      "button": "Khám phá tour"
+    },
+    "loading": "Đang tải đơn hàng..."
+  },
+  "empty": {
+    "title": "Chưa có đơn hàng nào",
+    "message": "Bạn chưa có đơn hàng nào. Hãy đặt tour ngay!",
+    "exploreTours": "Khám phá tour"
+  },
+  "pagination": {
+    "previous": "Trước",
+    "next": "Tiếp",
+    "page": "Trang"
+  },
+  "filters": {
+    "searchPlaceholder": "Tìm kiếm theo mã đơn hoặc tên tour...",
+    "allStatus": "Tất cả trạng thái",
+    "paid": "Đã thanh toán",
+    "unpaid": "Chưa thanh toán",
+    "newestFirst": "Mới nhất → Cũ nhất",
+    "oldestFirst": "Cũ nhất → Mới nhất"
+  },
+  "payment": {
+    "paid": "Đã thanh toán",
+    "unpaid": "Chưa thanh toán"
+  },
+  "guests": {
+    "adults": "người lớn",
+    "children": "trẻ em",
+    "infants": "em bé"
+  },
+  "card": {
+    "discount": "Giảm giá"
+  },
+  "status": {
+    "pending": "Chờ xử lý",
+    "confirmed": "Đã xác nhận",
+    "processing": "Đang xử lý",
+    "completed": "Hoàn thành",
+    "cancelled": "Đã hủy",
+    "refunded": "Đã hoàn tiền"
+  },
+  "detail": {
+    "title": "Chi tiết đơn hàng",
+    "orderCode": "Mã đơn hàng",
+    "orderDate": "Ngày đặt",
+    "tourName": "Tên tour",
+    "departureDate": "Ngày khởi hành",
+    "guests": "Số khách",
+    "adults": "Người lớn",
+    "children": "Trẻ em",
+    "infants": "Em bé",
+    "totalPrice": "Tổng tiền",
+    "paymentMethod": "Phương thức thanh toán",
+    "paymentStatus": "Trạng thái thanh toán",
+    "contactInfo": "Thông tin liên hệ",
+    "specialRequests": "Yêu cầu đặc biệt",
+    "notes": "Ghi chú"
+  },
+  "actions": {
+    "viewDetail": "Xem chi tiết",
+    "cancel": "Hủy đơn",
+    "payNow": "Thanh toán ngay",
+    "reorder": "Đặt lại",
+    "download": "Tải hóa đơn",
+    "print": "In hóa đơn",
+    "contact": "Liên hệ hỗ trợ"
+  },
+  "filter": {
+    "all": "Tất cả",
+    "pending": "Chờ xử lý",
+    "confirmed": "Đã xác nhận",
+    "completed": "Hoàn thành",
+    "cancelled": "Đã hủy"
+  },
+  "booking": {
+    "title": "Lịch sử Booking",
+    "subtitle": "Đây là tất cả các đặt chỗ của bạn. Bạn có thể xem, chỉnh sửa hoặc hủy chúng.",
+    "empty": {
+      "title": "Chưa có đặt chỗ nào",
+      "message": "Bạn chưa đặt tour nào. Hãy khám phá ngay!",
+      "button": "Tìm tour"
+    },
+    "card": {
+      "tourCode": "Mã tour",
+      "departure": "Khởi hành",
+      "guests": "Số khách",
+      "status": "Trạng thái",
+      "price": "Giá",
+      "placeId": "Địa điểm ID",
+      "bookingCode": "Mã đặt chỗ",
+      "freeWifi": "Wifi miễn phí",
+      "breakfast": "Bữa sáng",
+      "roomService": "Dịch vụ phòng",
+      "confirmed": "Đã xác nhận đặt chỗ của bạn",
+      "pending": "Đang chờ xác nhận",
+      "cancelled": "Đặt chỗ đã bị hủy",
+      "viewUserInfo": "Xem thông tin người đặt",
+      "edit": "Chỉnh sửa"
+    },
+    "filter": {
+      "title": "Lọc đặt chỗ",
+      "expand": "Mở rộng",
+      "collapse": "Thu gọn",
+      "filterBy": "Lọc theo",
+      "all": "Tất cả",
+      "place": "Địa điểm",
+      "date": "Ngày",
+      "status": "Trạng thái",
+      "placeCode": "Mã địa điểm",
+      "dateFormat": "Ngày (DD/MM/YYYY)",
+      "selectStatus": "-- Chọn trạng thái --",
+      "confirmed": "Đã xác nhận",
+      "pendingConfirm": "Đang chờ xác nhận",
+      "cancelled": "Đã hủy",
+      "clearFilter": "Xóa bộ lọc",
+      "apply": "Áp dụng",
+      "enterPlaceCode": "Nhập mã địa điểm..."
+    },
+    "modal": {
+      "userInfo": "Thông tin người đặt",
+      "editBooking": "Chỉnh sửa đặt chỗ",
+      "bookingDate": "Ngày đặt",
+      "placeId": "ID Địa điểm",
+      "saveChanges": "Lưu thay đổi",
+      "cancel": "Hủy",
+      "close": "Đóng",
+      "retry": "Thử lại",
+      "noInfo": "Không có thông tin",
+      "male": "Nam",
+      "female": "Nữ",
+      "email": "Email",
+      "phone": "Số điện thoại",
+      "cannotLoadUser": "Không thể tải thông tin người dùng"
+    },
+    "loading": {
+      "bookingInfo": "Đang tải thông tin đặt chỗ...",
+      "userInfo": "Đang tải thông tin người dùng...",
+      "general": "Đang tải..."
+    },
+    "toast": {
+      "saveError": "Lỗi khi lưu thay đổi",
+      "saveSuccess": "Thay đổi đã được lưu thành công!"
+    }
+  },
+  "messages": {
+    "cancelConfirm": "Bạn có chắc chắn muốn hủy đơn hàng này?",
+    "cancelSuccess": "Đã hủy đơn hàng thành công",
+    "cancelFailed": "Không thể hủy đơn hàng. Vui lòng thử lại."
+  },
+  "detailPage": {
+    "loading": "Đang tải dữ liệu đơn hàng...",
+    "departFrom": "Khởi hành từ",
+    "guests": "khách",
+    "startDate": "Ngày khởi hành",
+    "endDate": "Ngày kết thúc",
+    "paymentMethod": "Phương thức thanh toán",
+    "paidAt": "Thanh toán lúc",
+    "contactInfo": "Thông tin liên hệ",
+    "contactName": "Người liên hệ",
+    "phone": "Số điện thoại",
+    "specialRequests": "Yêu cầu đặc biệt",
+    "participantList": "Danh sách khách tham gia",
+    "includedServices": "Dịch vụ bao gồm",
+    "paymentDetails": "Chi tiết thanh toán",
+    "tourPrice": "Giá tour trọn gói",
+    "discount": "Giảm giá",
+    "total": "Tổng cộng",
+    "paymentStatus": "Trạng thái thanh toán",
+    "viewTourDetail": "Xem chi tiết tour",
+    "review": "Đánh giá",
+    "errors": {
+      "noOrderCode": "Không tìm thấy mã đơn hàng trên URL.",
+      "fetchError": "Lỗi khi lấy dữ liệu đơn hàng."
+    }
+  }
+}
